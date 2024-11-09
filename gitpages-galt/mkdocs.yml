@@ -1,0 +1,14 @@
+site_name: Portal Galt
+
+nav:
+  - Home: 'home.md'
+  - Visão de Produto e Projetos:
+    - Visão de Produto: 'visaoproduto.md'
+    - Visão de Projeto: 'visaoprojeto.md'
+
+
+theme:
+  name: material
+  language: pt
+  palette:
+    primary: green
