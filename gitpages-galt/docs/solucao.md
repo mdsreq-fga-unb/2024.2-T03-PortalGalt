@@ -1,67 +1,8 @@
-# **Cenário Atual do Cliente e do Negócio** 
-![logo galt](/images/Galt.png)
-
-## Introdução ao Negócio e Contexto  
-<p style="text-indent: 50px;text-align: justify;">Galt Vestibulares é um cursinho popular criado em 2015 por 4 alunos da Universidade de Brasília. O cursinho oferece aulas gratuitas para alunos de baixa renda focadas em ajudá-los a passar no vestibular. As aulas ocorrem de forma presencial e online. Em cada sala, há aulas focadas em uma prova específica: ENEM, vestibular tradicional da UnB ou PAS. A organização é responsável por impactar mais de 400 estudantes e 200 voluntários todos os anos.</p>  
-
-<p style="text-indent: 50px;text-align: justify;">A missão da organização é ter um duplo impacto: proporcionar acesso ao ensino superior para alunos interessados, mas que não teriam condições de arcar com um cursinho pré-vestibular, e oferecer uma oportunidade para os professores voluntários, que geralmente são estudantes de licenciatura em busca de experiência docente. Muitos desses professores encontram dificuldades em ingressar diretamente no ensino público ou privado.</p>  
-
-<p style="text-indent: 50px;text-align: justify;">O Galt tem como diferencial o fato de que a parte administrativa, ou seja, todas as responsabilidades fora de sala de aula, são realizadas por outros voluntários dedicados. O Galt possui sete diretorias executivas, cada uma com sua equipe específica, como Marketing, Dados, Ensino, Pedagógico, Gente e Gestão, entre outras. Esses voluntários, geralmente, também são estudantes universitários, mas atuam em áreas relacionadas à sua diretoria. Cerca de metade dos voluntários, aproximadamente 100 pessoas, fazem parte da equipe administrativa e não têm contato diário com os alunos, com exceção da Diretoria Pedagógica, que serve como conexão entre os alunos e a administração, sendo responsável por coletar comentários e feedback dos estudantes.</p>
-
-## Identificação da Oportunidade ou Problema
-<p style="text-indent: 50px;text-align: justify;">O Galt Vestibulares tem dois grupos principais de voluntários: o corpo de professores e o corpo administrativo. Os professores têm contato diário com os alunos, enquanto o corpo administrativo não possui esse contato direto. A comunicação oficial entre o administrativo e os alunos é feita por e-mail, e a Diretora Pedagógica atua como representante do administrativo. A diretora costuma fornecer seu número pessoal aos alunos e se mantém disponível para esclarecer dúvidas. Dessa forma, as dúvidas são respondidas de maneira individual e manual.</p>
-
-<p style="text-indent: 50px;text-align: justify;">O e-mail funciona em muitos casos. No entanto, ele apresenta algumas falhas que um software poderia solucionar. Os alunos muitas vezes perdem os e-mails recebidos, especialmente quando precisam recuperar informações enviadas semanas ou meses atrás. Isso os leva a buscar esclarecimentos com colegas de classe ou diretamente com a diretora pedagógica. Uma plataforma exclusiva para notícias e avisos do Galt resolveria as limitações do e-mail.</p>
-
-<p style="text-indent: 50px;text-align: justify;">Um exemplo disso são os eventos extracurriculares organizados pelo administrativo. É comum a Diretoria Pedagógica receber várias mensagens de alunos com dúvidas sobre detalhes de eventos para os quais receberam convites por e-mail semanas antes. Normalmente, os alunos sabem que o evento vai acontecer porque os professores avisam em sala de aula, mas não se lembram ou não anotam os detalhes. Além disso, muitos alunos não costumam revisar seus e-mails, que ficam desorganizados entre spams e outros assuntos alheios ao Galt.</p>
-
-<p style="text-indent: 50px;text-align: justify;">A Figura, a seguir apresenta o diagrama de Ishikawa contendo as causas e o problema atual do Galt Vestibulares.</p>
-![diagrama](/images/diagrama.png)
-
-## Desafios do Projeto
-
-<p style="text-indent: 50px;text-align: justify;">Com base na ideia inicial do projeto, o grupo identificou alguns desafios principais que poderão surgir
-durante o desenvolvimento:</p>
-
-* **Integração com Planilhas Excel:**
-Esse ponto exige que o sistema seja capaz de interpretar e armazenar dados variados a partir de
-uploads feitos pela administração, garantindo que diferentes tipos de informações (notas,
-históricos, etc.) sejam lidos corretamente. Problemas com a compatibilidade de formato ou
-falhas de importação de dados podem comprometer a experiência e a precisão dos dados.
-
-* **Autenticação e Controle de Acesso:**
-Como a aplicação será utilizada tanto por alunos quanto pela administração e professores, é
-essencial que a autenticação e os níveis de acesso de cada perfil sejam bem definidos e seguros.
-Esse controle é fundamental para que cada usuário tenha acesso apenas ao conteúdo necessário,
-evitando problemas de segurança e garantindo a privacidade dos dados
-
-* **Escalabilidade:**
-O cursinho impacta centenas de estudantes e voluntários todos os anos, o que demanda um
-sistema escalável, capaz de suportar um aumento contínuo de usuários e dados. Para isso, é
-provável que seja necessária uma arquitetura robusta e soluções em nuvem que garantam o
-desempenho e a continuidade do sistema a longo prazo.
-
-
-## Segmentação de Clientes
-<p style="text-indent: 50px;text-align: justify;">O Portal Galt atenderá 3 segmentos de clientes:</p>
-
-* **Alunos (16-25 anos):** Este grupo é formado por jovens vestibulandos que compõem a maioria dos
-usuários do Galt Vestibulares. São estudantes de baixa renda com o desejo de ingressar no ensino
-superior de forma acessível e com uma preparação de alta qualidade.
-* **Equipe Educacional (20-50 anos):** Este segmento é composto por professores, psicólogos e
-monitores que trabalham de forma voluntária.
-* **Equipe Administrativa (20-50 anos):** São os voluntários que organizam e coordenam o cursinho,
-garantindo que tudo funcione de forma organizada para os alunos e professores. 
-
-#
-#
-#
-
-# **Solução Proposta**
+# Solução Proposta
 
 ## Objetivos do Produto 
 
-<p style="text-indent: 50px;text-align: justify;">O objetivo do produto é criar um portal informativo focado no Galt, onde todos os membros administrativos e professores poderão publicar atualizações e conteúdos relevantes.</p> <p style="text-indent: 50px;text-align: justify;">O portal Galt contribuirá para a comunicação entre a administração e os alunos, pois permitirá que a equipe administrativa e os professores publiquem posts, que podem ser avisos sobre as aulas ou informações sobre vestibulares, por exemplo. Dessa forma, os alunos terão um espaço centralizado com conteúdos do Galt Vestibulares, organizado conforme as necessidades do cursinho.</p>
+<p style="text-indent: 50px;text-align: justify;">O objetivo do produto é criar um portal informativo focado no Galt, onde todos os membros administrativos e professores poderão publicar atualizações e conteúdos relevantes.</p> <p style="text-indent: 50px;text-align: justify;">O portal Galt contribuirá para a comunicação entre a administração e os alunos, pois permitirá que a equipe administrativa e os professores publiquem posts, que poderão ser avisos sobre as aulas ou informações sobre vestibulares, por exemplo. Dessa forma, os alunos terão um espaço centralizado com conteúdos do Galt Vestibulares, organizado conforme as necessidades do cursinho.</p>
 
 ## Características da Solução 
 
@@ -133,28 +74,28 @@ que fornecerá orientações claras sobre os requisitos.</p>
 <p style="text-indent: 50px;text-align: justify;">Espera-se que a plataforma para os alunos traga vários benefícios para o Galt, diretos e indiretos.
 Dentre esses benefícios estão:</p>
 
-### *Meio de comunicação oficial*
+### ***Meio de comunicação oficial***
 <p style="text-indent: 50px;text-align: justify;">A plataforma vai facilitar a comunicação entre administração e alunos, trazendo um meio de
 comunicação oficial e rápido para a administração. Sem precisar de usar somente a comunicação física por
 meio de professores, grupos não-oficiais de whatsapp ou email.</p>
 
-### *Evitar perguntas repetidas*
+### ***Evitar perguntas repetidas***
 <p style="text-indent: 50px;text-align: justify;">Devido a forma de comunicação atual, é recorrente alunos perguntarem várias vezes informações sobre
 o cursinho que a administração já respondeu várias vezes. Com uma plataforma unificada, os alunos vão ter
 um lugar para tirar dúvidas e então mitigar esse problema.
 </p>
 
-### *Comunicação Perene*
+### ***Comunicação Perene***
 <p style="text-indent: 50px;text-align: justify;">A plataforma será um meio de comunicação onde o aluno pode rever informações que já foram dadas. Por
 exemplo, o resultado dos simulados hoje é enviado por email. Se o aluno quiser ver seu resultado de dois ou
 três meses atrás. Ele tem de buscar na sua caixa de email no meio de spam e várias outras informações alheias
 ao Galt. Na plataforma Galt o aluno conseguiria rever todos os seus resultados de forma mais simples.</p>
 
-### *Conformidade com a LGPD*
+### ***Conformidade com a LGPD***
 <p style="text-indent: 50px;text-align: justify;">A plataforma terá total conformidade com a LGPD. Todos os dados de alunos e voluntários será guardado
 e utilizado conforme a lei.</p>
 
-## *Histórico de Revisão*
+*Histórico de Revisão*
 
 | Data | Versão | Descrição | Autores |
 | ---------- | ----------- | -------------- | -------------- |
