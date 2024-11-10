@@ -1,4 +1,5 @@
 site_name: Portal Galt
+site_url: https://mdsreq-fga-unb.github.io/2024.2-T03-PortalGalt/
 
 nav:
   - Home: 'index.md'
