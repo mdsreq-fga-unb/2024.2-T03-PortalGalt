@@ -1,7 +1,7 @@
 site_name: Portal Galt
 
 nav:
-  - Home: 'home.md'
+  - Home: 'index.md'
   - Visão de Produto e Projetos:
     - Cenário Atual do Cliente e Negócio: 'introducao.md'
     - Solução Proposta: 'solucao.md'
