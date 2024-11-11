@@ -12,19 +12,19 @@
 
 | Características | OpenUP | ScrumXP | 
 | ---------- | ----------- | -------------- | 
-| Abordagem Geral  | | |
-| Foco em Arquitetura | | |
-| Estrutura de Processos | | |
-| Flexibilidade de Requisitos | | |
-| Colaboração com Clientes | | |
-| Complexidade do Processo | | |
-| Qualidade Técnica | | |
-| Práticas de Desenvolvimento | | |
-| Adaptação ao Projeto | | |
-| Documentação | | |
-| Controle de Qualidade | | |
-| Escalabilidade  | | |
-| Suporte a Equipes de Desenvolvimento | | |
+| Abordagem Geral  | Iterativo e incrementa | Iterativo e incremental |
+| Foco em Arquitetura | Foco em análise de riscos e arquitetura sólida | foco em entregas incrmentais e pequenas. Evoluindo a arquitetura aos poucos |
+| Estrutura de Processos | Fases separadas: Iniciação, Elaboração, Construção, transição | entregas curtas, em sprints de duas ou quatro semanas |
+| Flexibilidade de Requisitos | arquitetura rígida, mas tem certa flexibilidade de requisitos | alta flexibilidade |
+| Colaboração com Clientes | Envolvimento focado no começo e no final do processo | envolvimento constanate durante todo o processo |
+| Complexidade do Processo | Tem fases mais definidas, menos flexibilidade e mais documentação | Mais ágil, foco na entrega funcional |
+| Qualidade Técnica | A arquitetura firme e confiável garante a qualidade do software | Código limpo e funcional garante a qualidade técnica |
+| Práticas de Desenvolvimento | menos práticas específicas de desenvolvimento | refatoração contínua, pair programing entre outros |
+| Adaptação ao Projeto | Pensado para projeto com necessidade de uma arquitetura robusta | Pensado para projeto com clientes que não certeza de como querem o produto |
+| Documentação | Demanda documentação formal | Minimiza documentação, maior valorização do códgio fonte |
+| Controle de Qualidade | validações incrementais e revisão da arquitetura | Confiança nos ritos do ScrumXP como o pair programing e a validação com o cliente |
+| Escalabilidade  | Pode ser aplicado com equipes grandes e projetos complexos | indicado para equipes menores, mas pode ser escolável |
+| Suporte a Equipes de Desenvolvimento | papeis definidos e hirarquia clara | Equipes menores e mais colaborativas |
 
 ## Justificativa 
  
