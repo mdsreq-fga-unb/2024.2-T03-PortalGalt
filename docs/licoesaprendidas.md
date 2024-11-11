@@ -1,3 +1,4 @@
 # Lições Aprendidas
 
 ## Unidade 1
+Uma lição importante aprendida no projeto com cliente real foi a necessidade de organizar entregas e definir metas claras para garantir o progresso. Dividir o projeto em etapas com prazos definidos ajudou a manter o foco e permitiu que o cliente acompanhasse o avanço de cada fase. Estabelecemos metas intermediárias, que facilitaram ajustes rápidos e reduziram o risco de desvio em relação ao objetivo final. A organização das entregas em cronogramas detalhados, alinhados previamente com o cliente, também ajudou a gerenciar expectativas e proporcionou um fluxo de trabalho mais eficiente e transparente para todos os envolvidos.
