@@ -27,6 +27,14 @@
 | Suporte a Equipes de Desenvolvimento | | |
 
 ## Justificativa 
+ 
+1. Flexibilidade: As entregas incrementais e iterativas oferecem ao cliente a oportunidade de estar mais próximo da produção do produto, garantindo que o produto evolua conforme as necessidades do Galt.
+
+2. Arquitetura Simples: O produto não exige uma arquitetura muito complexa. Portanto, não há necessidade de um processo especializado nesse aspecto. O trade-off entre flexibilidade e risco entre ScrumXP e OpenUP inclina-se mais para o ScrumXP, priorizando a flexibilidade.
+
+3. Adaptação ao Nível de Conhecimento da Equipe: A equipe não está totalmente confortável com as tecnologias que serão utilizadas no projeto. O ScrumXP oferece uma margem maior para a adaptação da equipe às novas tecnologias, permitindo um aprendizado contínuo.
+
+4. Familiaridade com o Processo: Toda a equipe já realizou projetos utilizando o ScrumXP, portanto, já está familiarizada com o processo e seus ritos. Não há necessidade de adaptação a um novo processo.
 
 
 

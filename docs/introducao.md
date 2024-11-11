@@ -1,5 +1,5 @@
 # Cenário Atual do Cliente e do Negócio
-![logo galt](/images/Galt.png)
+![logo galt](images/Galt.png)
 
 ## Introdução ao Negócio e Contexto  
 <p style="text-indent: 50px;text-align: justify;">Galt Vestibulares é um cursinho popular criado em 2015 por 4 alunos da Universidade de Brasília. O cursinho oferece aulas gratuitas para alunos de baixa renda focadas em ajudá-los a passar no vestibular. As aulas ocorrem de forma presencial e online. Em cada sala, há aulas focadas em uma prova específica: ENEM, vestibular tradicional da UnB ou PAS. A organização é responsável por impactar mais de 400 estudantes e 200 voluntários todos os anos.</p>  
@@ -16,7 +16,7 @@
 <p style="text-indent: 50px;text-align: justify;">Um exemplo disso são os eventos extracurriculares organizados pelo administrativo. É comum a Diretoria Pedagógica receber várias mensagens de alunos com dúvidas sobre detalhes de eventos para os quais receberam convites por e-mail semanas antes. Normalmente, os alunos sabem que o evento vai acontecer porque os professores avisam em sala de aula, mas não se lembram ou não anotam os detalhes. Além disso, muitos alunos não costumam revisar seus e-mails, que ficam desorganizados entre spams e outros assuntos alheios ao Galt.</p>
 
 <p style="text-indent: 50px;text-align: justify;">A Figura, a seguir apresenta o diagrama de Ishikawa contendo as causas e o problema atual do Galt Vestibulares.</p>
-![diagrama](/images/diagrama.png)
+![diagrama](images/diagrama.png)
 
 ## Desafios do Projeto
 
