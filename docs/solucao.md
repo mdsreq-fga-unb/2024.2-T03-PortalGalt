@@ -22,6 +22,7 @@ educacionais com os alunos.
 notícias e atualizar resultados dos simulados.
 * **Grade horária:** Funcionalidade para os administradores organizarem e disponibilizarem o cronograma
 de aulas e atividades do cursinho.
+* **Frequência dos alunos** Os alunos serão capazes de conferir a frequência deles em sala. 
 
 ## Tecnologias a Serem Utilizadas
 
