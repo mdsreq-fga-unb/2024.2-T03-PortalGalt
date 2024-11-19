@@ -1,10 +1,10 @@
 # Solução Proposta
 
-## Objetivos do Produto 
+## Objetivos do Produto
 
-<p style="text-indent: 50px;text-align: justify;">O objetivo do produto é criar um portal informativo focado no Galt, onde todos os membros administrativos e professores poderão publicar atualizações e conteúdos relevantes.</p> <p style="text-indent: 50px;text-align: justify;">O portal Galt contribuirá para a comunicação entre a administração e os alunos, pois permitirá que a equipe administrativa e os professores publiquem posts, que poderão ser avisos sobre as aulas ou informações sobre vestibulares, por exemplo. Dessa forma, os alunos terão um espaço centralizado com conteúdos do Galt Vestibulares, organizado conforme as necessidades do cursinho.</p>
+<p style="text-indent: 50px; text-align: justify;">O produto tem como objetivo aprimorar a comunicação entre administradores, professores e alunos do Galt Vestibulares por meio de um portal web. Nesse ambiente, os membros administrativos e professores do cursinho poderão publicar atualizações e conteúdos relevantes de forma eficiente e acessível.</p> <p style="text-indent: 50px; text-align: justify;">O portal contará com funcionalidades dedicadas, como espaços para publicação de resultados de simulados, acompanhamento da frequência dos alunos e divulgação de notícias importantes relacionadas ao cursinho. Com isso, os alunos terão acesso centralizado e organizado a todas as informações essenciais, atendendo às demandas específicas do Galt Vestibulares e contribuindo para a eficiência de sua gestão educacional.</p>
 
-## Características da Solução 
+## Características da Solução
 
 * **Portal de notícias do cursinho:** Um espaço onde alunos e professores podem acessar atualizações,
 novidades e comunicados importantes do cursinho em tempo real.
