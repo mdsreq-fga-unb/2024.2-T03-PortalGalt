@@ -11,8 +11,7 @@
 | Analista de QA | Responsável por testar a solução para garantir a qualidade e a correção do sistema antes da entrega, identificando possíveis bugs e validando funcionalidades. | Bruno de Oliveira | Bruno de Oliveira |
 | Product Owner (PO) | Trabalha diretamente com o cliente para entender e definir os requisitos, priorizar funcionalidades e garantir que o produto final atenda às expectativas do cliente. | Ane Carolina | Ane Carolina |
 | Gerente de Projeto | Supervisiona o andamento do projeto, define metas, coordena a equipe e mantém o cronograma do projeto. | Pedro Fonseca | Pedro Fonseca |
-| Analista de Requisitos | Trabalha na definição dos requisitos funcionais e não funcionais
-do sistema e garante que eles sejam atendidos. | Todos os integrantes do time | Todos os integrantes do time |
+| Analista de Requisitos | Trabalha na definição dos requisitos funcionais e não funcionaisdo sistema e garante que eles sejam atendidos. | Todos os integrantes do time | Todos os integrantes do time |
 
 ## Comunicação
 
