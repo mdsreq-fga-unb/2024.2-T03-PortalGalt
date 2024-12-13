@@ -8,7 +8,7 @@
 | ---------- | ----------- | -------------- | -------------- |
 | Desenvolvedor Back-end | Responsável pela criação e manutenção dos sistemas e funcionalidades no lado do servidor, assegurando que o backend suporte todas as funcionalidades necessárias e integrando-se com o frontend. | Cairo Florenço | Cairo Florenço, Pedro Fonseca |
 | Desenvolvedor Front-end | Responsável pela construção da interface do usuário e da interação do cliente com o sistema, garantindo uma experiência intuitiva e responsiva. | João Pedro | João Pedro, Paola Rebeca |
-| Analista de QA | Responsável por testar a solução para garantir a qualidade e a correção do sistema antes da entrega, identificando possíveis bugs e validando funcionalidades. | Bruno de Oliveira | Bruno de Oliveira |
+| Analista de QA | Responsável por testar a solução para garantir a qualidade e a correção do sistema antes da entrega, identificando possíveis bugs e validando funcionalidades. | Bruno de Oliveira | Todos os integrantes do time |
 | Product Owner (PO) | Trabalha diretamente com o cliente para entender e definir os requisitos, priorizar funcionalidades e garantir que o produto final atenda às expectativas do cliente. | Ane Carolina | Ane Carolina |
 | Gerente de Projeto | Supervisiona o andamento do projeto, define metas, coordena a equipe e mantém o cronograma do projeto. | Pedro Fonseca | Pedro Fonseca |
 | Analista de Requisitos | Trabalha na definição dos requisitos funcionais e não funcionaisdo sistema e garante que eles sejam atendidos. | Paola Rebeca | Todos os integrantes do time |

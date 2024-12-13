@@ -9,8 +9,8 @@ nav:
     - Estratégias de Engenharia de Software: 'estrategias.md'
     - Cronograma e Entregas: 'cronograma.md'
     - Interação entre Equipe e Cliente: 'interacao.md'
-    - Lições Aprendidas: 'licoesaprendidas.md'
   - Videos de apresetanção: videos_apresentacao.md
+  - Lições Aprendidas: 'licoesaprendidas.md'
 
 
 theme:

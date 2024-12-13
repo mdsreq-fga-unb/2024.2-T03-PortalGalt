@@ -16,8 +16,6 @@ atualizar dados como notas e matrículas diretamente na plataforma.
 acompanharem sua evolução ao longo dos simulados.
 * **Conta individual para alunos:** Cada aluno terá uma conta para acessar seu histórico de notas, ver as
 notícias e consultar seus resultados.
-* **Conta para professores:** Cada professor terá uma conta para postar atualizações e compartilhar recursos
-educacionais com os alunos.
 * **Conta para administradores:** Os administradores poderão fazer postagens, gerenciar o conteúdo de
 notícias e atualizar resultados dos simulados.
 * **Grade horária:** Funcionalidade para os administradores organizarem e disponibilizarem o cronograma
