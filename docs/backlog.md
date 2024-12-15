@@ -137,6 +137,8 @@ aqui está a lista de épcios e histórias de usuários identificados pela equip
 
 # Requisitos não funcionais
 
+| Requisito | Descrição |
+| --------- | ------------------------------------- |
 | RNF01 | O site deve ser responsivo, garantindo usabilidade via dispositivos móveis e desktops |
 | RNF02 | O site deve funcionar nos navegadores mais utilizados |
 | RNF03 | Os dados dos usuários devem ser protegidos conforme a LGPD |
