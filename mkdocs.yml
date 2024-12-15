@@ -12,6 +12,7 @@ nav:
     - Requisitos de Software: 'requisitos.md'
   - Videos de apresetanção: videos_apresentacao.md
   - Lições Aprendidas: 'licoesaprendidas.md'
+  - Backlog do Produto: 'backlog.md'
 
 
 theme:
