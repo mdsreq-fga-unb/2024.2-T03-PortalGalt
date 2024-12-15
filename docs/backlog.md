@@ -138,6 +138,35 @@
 
 
 # Valoração
+Utilizamos dois eixos para medir o valor de cada história de usuário, O valor de negócio foi feito pelo PO. A complexidade foi uma média das notas dadas por todos os membros da equipe de desenvolvimento.
+
+<table>
+    <tr>
+        <td>legenda</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>valor de negocio</td>
+        <td>pouco importante</td>
+        <td>poderia ter</td>
+        <td>desejável</td>
+        <td>necessário</td>
+        <td>muito importante</td>
+    </tr>
+    <tr>
+        <td>complexidade</td>
+        <td>muito simples</td>
+        <td>simples</td>
+        <td>moderado</td>
+        <td>complexo</td>
+        <td>muito complexo</td>
+    </tr>
+</table>
+
 <table>
     <tr>
         <td>épico</td>
