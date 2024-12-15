@@ -1,8 +1,13 @@
 # Histórico de revisão
 | Data | Versão | Descrição | Autores |
 | ---- | ------- | ---------- | ------ |
-| 15/12/2024 | 0.1 | Criando backlog | Pedro Cruz|
+| 15/12/2024 | 0.1 | Criando backlog | Pedro Cruz |
+
+
 # Épicos e User Stories
+
+aqui está a lista de épcios e histórias de usuários identificados pela equipe.
+
 <table>
 <tr>
     <td>Épico</td><td>User Story</td><td>descrição</td><td>objetivo</td>
@@ -108,6 +113,7 @@
 </table>
 
 # Requisitos funcionais
+
 | Requisito | Descrição |
 | --------- | ------------------------------------- |
 | RF01 | O usuário poderá acessar a plataforma através de login e senha |
@@ -130,6 +136,7 @@
 | RF18 |O aluno poderá acessar o cronograma das aulas da turma que ele está cadastrado |
 
 # Requisitos não funcionais
+
 | RNF01 | O site deve ser responsivo, garantindo usabilidade via dispositivos móveis e desktops |
 | RNF02 | O site deve funcionar nos navegadores mais utilizados |
 | RNF03 | Os dados dos usuários devem ser protegidos conforme a LGPD |
@@ -140,6 +147,7 @@
 # Valoração
 Utilizamos dois eixos para medir o valor de cada história de usuário, O valor de negócio foi feito pelo PO. A complexidade foi uma média das notas dadas por todos os membros da equipe de desenvolvimento.
 
+## Legenda
 <table>
     <tr>
         <td>legenda</td>
@@ -167,6 +175,7 @@ Utilizamos dois eixos para medir o valor de cada história de usuário, O valor 
     </tr>
 </table>
 
+## tabela de valoração
 <table>
     <tr>
         <td>épico</td>
@@ -175,7 +184,7 @@ Utilizamos dois eixos para medir o valor de cada história de usuário, O valor 
         <td>Complexidade</td>
         <td>Total</td>
         <td>média por épico</td>
-        <td></td>
+        <td>dentro do MVP</td>
     </tr>
     <tr>
         <td rowspan="4">EP01 - cadastro</td>
@@ -368,6 +377,6 @@ Utilizamos dois eixos para medir o valor de cada história de usuário, O valor 
 
 
 # MVP 1
-MVP 1 será composto pelos épicos EP01 - Cadastro, EP03 - simulado, EP05 - frequencia 
+Devido a priorização da PO, foi identificado que os épicos de cadastro, simulado e frequência são os de mais importância para a empresa. Portanto, o MVP 1 será composto pelos épicos EP01 - Cadastro, EP03 - simulado, EP05 - frequencia.
 
 # DoR e DoD
