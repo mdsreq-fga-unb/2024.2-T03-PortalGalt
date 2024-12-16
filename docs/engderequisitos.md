@@ -139,3 +139,10 @@
 * 
 * 
 * 
+
+
+*Histórico de Revisão*
+
+| Data | Versão | Descrição | Autores |
+| ---------- | ----------- | -------------- | -------------- |
+| 15/12/2024 | 1.0 | Criação da página Engenharia de Requisitos | Cairo Florenço |
