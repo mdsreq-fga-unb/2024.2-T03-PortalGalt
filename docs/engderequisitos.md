@@ -111,7 +111,7 @@
 
 | Atividades de ER | Prática | Técnica | Resultado Esperado |
 | ---------- | ----------- | -------------- | -------------- | 
-| Elicitação e Descoberta |  | Identificação de novos requisitos | brainstorming, análise de tarefas e reunião com o PO | 
+| Elicitação e Descoberta | Identifição de novos requisitos | Identificação de novos requisitos | brainstorming, análise de tarefas e reunião com o PO | 
 | Análise e Consenso | Priorização estratégica | Análise de domínio de requisito e priorização MoSCoW | Lista dos requisitos que incluidos na proxíma release. | 
 | Organização e Atualização | Revisão do backlog | Revisão do backlog da release | Atualização das entregas do backlog para a release seguinte. | 
 | Declaração | Definição de épicos de e User Stories | Criação dos épicos e histórias de usuários | Histórias de Usuários definidas para serem trabalhadas na proxíma release. | 
