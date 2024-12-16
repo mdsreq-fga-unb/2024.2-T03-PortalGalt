@@ -33,7 +33,7 @@
 
 | Atividades de ER | Prática | Técnica | Resultado Esperado |
 | ---------- | ----------- | -------------- | -------------- | 
-| Elicitação e Descoberta | ----------- | -------------- | -------------- | 
+| Elicitação e Descoberta | Levantamento de Requisitos | Entrevista, Análise de domínio do negócio | descoberta de requisitos de alto nível. Mapeamento do objetivo de entrega da release | 
 | Análise e Consenso | ----------- | -------------- | -------------- | 
 | Declaração | ----------- | -------------- | -------------- | 
 | Organização e Atualização | ----------- | -------------- | -------------- | 
