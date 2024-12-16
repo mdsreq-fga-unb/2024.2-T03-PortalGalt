@@ -47,11 +47,11 @@
 
 | Requisito | Nome e descrição | 
 | ---------- | ----------- | 
-| **RF01** | Usabilidade: O site deve ser responsivo, garantindo usabilidade via dispositivos móveis e desktops | 
-| **RF02** | Desempenho: O site deve ser capaz de comportar o pico de requisições de todos os alunos (~ 400 alunos) | 
-| **RF03** | Confiabilidade: Os dados dos usuários devem ser protegidos conforme a LGPD, garantindo segurança e confiança no sistema. | 
-| **RF04** | Suportabilidade: O site deve funcionar nos navegadores mais utilizados. |
-| **RF05** | Implementação: O código deve ser desenvolvido de forma que permita a criação e execução de testes automatizados. |  
+| **RNF01** | Usabilidade: O site deve ser responsivo, garantindo usabilidade via dispositivos móveis e desktops | 
+| **RNF02** | Desempenho: O site deve ser capaz de comportar o pico de requisições de todos os alunos (~ 400 alunos) | 
+| **RNF03** | Confiabilidade: Os dados dos usuários devem ser protegidos conforme a LGPD, garantindo segurança e confiança no sistema. | 
+| **RNF04** | Suportabilidade: O site deve funcionar nos navegadores mais utilizados. |
+| **RNF05** | Implementação: O código deve ser desenvolvido de forma que permita a criação e execução de testes automatizados. |  
 
 *Histórico de Revisão*
 

@@ -25,8 +25,9 @@
 | Controle de Qualidade | Validações incrementais e revisão da arquitetura | Confiança nos ritos do ScrumXP como o pair programing e a validação com o cliente |
 | Escalabilidade  | Pode ser aplicado com equipes grandes e projetos complexos | Indicado para equipes menores, mas pode ser escalável |
 | Suporte a Equipes de Desenvolvimento | Papéis definidos e hirarquia clara | Equipes menores e mais colaborativas |
-fonte: slide de sala de aula "Unidade 1 - Aula - Aborgadens, Ciclos de Vida e Processo.pdf"
-exemplo ecofashion "TEMPLATE - REQ - 2024.2 - Visao do Produto e Projeto.pdf"
+
+> Fonte: slide de sala de aula "Unidade 1 - Aula - Aborgadens, Ciclos de Vida e Processo.pdf"
+> Exemplo ecofashion "TEMPLATE - REQ - 2024.2 - Visao do Produto e Projeto.pdf"
 
 ## Justificativa 
  

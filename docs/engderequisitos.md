@@ -1,0 +1,141 @@
+# Engenharia de Requisitos 
+
+## Atividades e Técnicas da ER e ScrumXP 
+
+### **Planejamento da Release** 
+
+| Atividades de ER | Prática | Técnica | Resultado Esperado |
+| ---------- | ----------- | -------------- | -------------- | 
+| Elicitação e Descoberta | Levantamento de Requisitos | Entrevista, Análise de Dominío de Negócio | Descoberta de requisitos de alto nível e mapeamento do objetivo de entrega da release | 
+| Análise e Consenso | Priorização de Requisitos | Priorização MoSCoW | Garantir que as funcionalidades essenciais sejam entregues primeiro, enquanto as menos críticas podem ser trabalhadas conforme o tempo permite. | 
+| Declaração | Registro dos Requisitos | Temas, Épicos e Histórias de Usuário | Histórias de usuário registradas e compreendidas pela equipe e pelo PO. | 
+| Organização e Atualização | Organização de Requisitos | Pontos por História | Organização do backlog do produto com histórias ordenadas por nível de importância | 
+
+
+*Elicitação e Descoberta:*
+ 
+* **Entrevista:** Reuniões realizadas com o PO para melhor entendimento do problema atual e das caracteristicas que a solução deve ter. Resultando no alinhamento da Visão de Produto do time.
+* **Análise de Domínio de Negócio:** Entender de forma mais aprofundada o contexto do negócio a ser desenvolvido, com o objetivo de alinhar os requisitos identificados às necessidades estratégicas da organização.
+
+*Análise e Consenso:*
+
+* **Priorização MoSCoW:** Classifica os requisitos em quatro categorias: Must have (essenciais), Should have (importantes), Could have (desejáveis) e Won’t have (não incluir), dessa forma, é definido o que vai ser prioridades no projeto.
+
+*Declaração:*
+
+* **Temas, Épicos e Histórias de Usuário:** Permite descrever os requisitos com um nível mais alto de detalhes, garantindo à equipe uma compreensão precisa das características que uma funcionalidade do produto deve ter.
+
+*Organização e Atualização:*
+
+* **Pontos por Histórias:** Estratégia que pontua as histórias de acordo com a importância delas. No caso do projeto Portal Galt, as histórias foram pontuadas de acordo com o valor de negócio e a complexidade de cada uma.
+
+### **Planejamento da Sprint** 
+
+| Atividades de ER | Prática | Técnica | Resultado Esperado |
+| ---------- | ----------- | -------------- | -------------- | 
+| Elicitação e Descoberta | ----------- | -------------- | -------------- | 
+| Análise e Consenso | ----------- | -------------- | -------------- | 
+| Declaração | ----------- | -------------- | -------------- | 
+| Organização e Atualização | ----------- | -------------- | -------------- | 
+
+*Elicitação e Descoberta:*
+
+* 
+* 
+* 
+
+*Análise e Consenso:*
+
+* 
+* 
+* 
+
+*Organização e Atualização:*
+
+* 
+*  
+* 
+
+*Declaração:*
+
+* 
+* 
+* 
+
+### **Execução da Sprint** 
+
+| Atividades de ER | Prática | Técnica | Resultado Esperado |
+| ---------- | ----------- | -------------- | -------------- | 
+| Representação | ----------- | -------------- | -------------- | 
+| Verificação e Validação | ----------- | -------------- | -------------- | 
+| Organização  e Atualização | ----------- | -------------- | -------------- | 
+
+*Representação:*
+
+* 
+* 
+* 
+
+*Verificação e Validação:*
+
+* 
+* 
+* 
+
+*Organização e Atualização:*
+
+* 
+*  
+* 
+
+### **Revisão da Sprint** 
+
+| Atividades de ER | Prática | Técnica | Resultado Esperado |
+| ---------- | ----------- | -------------- | -------------- | 
+| Verificação e Validação | ----------- | -------------- | -------------- | 
+| Organização e Atualização | ----------- | -------------- | -------------- | 
+
+*Verificação e Validação:*
+
+* 
+* 
+* 
+
+*Organização e Atualização:*
+
+* 
+* 
+* 
+
+### **Planejamento da Próxima Release** 
+
+| Atividades de ER | Prática | Técnica | Resultado Esperado |
+| ---------- | ----------- | -------------- | -------------- | 
+| Elicitação e Descoberta | ----------- | -------------- | -------------- | 
+| Análise e Consenso | ----------- | -------------- | -------------- | 
+| Organização e Atualização | ----------- | -------------- | -------------- | 
+| Declaração | ----------- | -------------- | -------------- | 
+
+*Elicitação e Descoberta:*
+
+* 
+* 
+* 
+
+*Análise e Consenso:*
+
+* 
+* 
+* 
+
+*Organização e Atualização:*
+
+* 
+*  
+* 
+
+*Declaração:*
+
+* 
+* 
+* 
