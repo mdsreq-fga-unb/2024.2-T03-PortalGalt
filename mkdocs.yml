@@ -9,11 +9,12 @@ nav:
     - Estratégias de Engenharia de Software: 'estrategias.md'
     - Cronograma e Entregas: 'cronograma.md'
     - Interação entre Equipe e Cliente: 'interacao.md'
-    - Requisitos de Software: 'requisitos.md'
     - Engenharia de Requisitos: 'engderequisitos.md'
-  - Videos de apresetanção: videos_apresentacao.md
+  - Backlog: 
+    - Requisitos de Software: 'requisitos.md'
+    - Backlog do Produto: 'backlog.md'
   - Lições Aprendidas: 'licoesaprendidas.md'
-  - Backlog do Produto: 'backlog.md'
+  - Videos de apresetanção: videos_apresentacao.md
 
 
 theme:

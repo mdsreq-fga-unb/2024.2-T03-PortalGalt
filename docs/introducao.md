@@ -43,13 +43,11 @@ desempenho e a continuidade do sistema a longo prazo.
 
 
 ## Segmentação de Clientes
-<p style="text-indent: 50px;text-align: justify;">O Portal Galt atenderá 3 segmentos de clientes:</p>
+<p style="text-indent: 50px;text-align: justify;">O Portal Galt atenderá 2 segmentos de clientes:</p>
 
 * **Alunos (16-25 anos):** Este grupo é formado por jovens vestibulandos que compõem a maioria dos
 usuários do Galt Vestibulares. São estudantes de baixa renda com o desejo de ingressar no ensino
 superior de forma acessível e com uma preparação de alta qualidade.
-* **Equipe Educacional (20-50 anos):** Este segmento é composto por professores, psicólogos e
-monitores que trabalham de forma voluntária.
 * **Equipe Administrativa (20-50 anos):** São os voluntários que organizam e coordenam o cursinho,
 garantindo que tudo funcione de forma organizada para os alunos e professores. 
 
