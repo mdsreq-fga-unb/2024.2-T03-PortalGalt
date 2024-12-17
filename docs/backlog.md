@@ -393,58 +393,7 @@ O Definition of Done define os critérios para considerar uma história de usuá
 
 - *Feedback do cliente incorporado?*  
   Caso aplicável, as revisões solicitadas pelo cliente foram atendidas
-# Definition of Ready (DoR) e Definition of Done (DoD)
 
-Esta seção apresenta os critérios para garantir que as histórias de usuário estejam bem definidas antes de serem trabalhadas e completamente finalizadas antes de serem entregues.
-
-## Definition of Ready (DoR)
-
-O Definition of Ready especifica os critérios mínimos que uma história de usuário deve atender antes de ser aceita para o desenvolvimento. Os critérios incluem:
-
-- *O requisito possui informação necessária para ser trabalhado?*  
-  A história de usuário deve estar bem descrita, sem ambiguidades, com detalhes claros e completos para o time de desenvolvimento.
-
-- *O requisito cabe em uma Sprint?*  
-  O escopo da história deve ser pequeno o suficiente para ser desenvolvido e entregue dentro de uma única Sprint.
-
-- *O requisito está representado por uma história de usuário?*  
-  Deve ser descrito no formato padrão de histórias de usuário ("Como [usuário], quero [ação], para [benefício]").
-
-- *O requisito foi aceito e validado pelo Product Owner (PO)?*  
-  Isso garante que o requisito está priorizado e aprovado pelo responsável por decidir o que será desenvolvido.
-
-- *O requisito é compreendido por todos da equipe?*  
-  Assegura que todos os membros da equipe entendem o que precisa ser feito, reduzindo ambiguidades ou retrabalho.
-
-- *A equipe está tecnicamente preparada para realizar o desenvolvimento?*  
-  Este ponto verifica se existem as habilidades e os recursos necessários para começar o trabalho.
-
----
-
-## Definition of Done (DoD)
-
-O Definition of Done define os critérios para considerar uma história de usuário como finalizada e pronta para entrega, incluindo:
-
-- *Entrega um incremento do produto?*  
-  A funcionalidade deve agregar valor ao produto e ser utilizável no contexto do sistema.
-
-- *Contempla os critérios de aceite estabelecidos?*  
-  Todos os critérios definidos na história de usuário devem ser atendidos sem exceções.
-
-- *Mantém os índices de performance do produto?*  
-  A funcionalidade não deve impactar negativamente o desempenho do sistema.
-
-- *Desenvolvimento completo?*  
-  Todas as partes do requisito foram implementadas conforme o escopo.
-
-- *Testes unitários e de integração realizados?*  
-  A funcionalidade foi testada com sucesso para validar sua integridade e integração.
-
-- *Revisão de código e QA concluídos?*  
-  A funcionalidade foi revisada pela equipe de QA e está livre de falhas críticas.
-
-- *Feedback do cliente incorporado?*  
-  Caso aplicável, as revisões solicitadas pelo cliente foram atendidas.
 
 # Histórico de revisão
 | Data | Versão | Descrição | Autores |
