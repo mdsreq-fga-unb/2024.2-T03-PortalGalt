@@ -83,10 +83,10 @@ Abaixo a lista de épcios e histórias de usuários identificados pela equipe.
     <td>Eu, como administrador, quero poder adicionar o cronograma de aulas de uma turma, para informar os alunos de suas aulas e os horários.</td>
 </tr>
 <tr>
-    <td rowspan="4">EP06 - Gerenciamento de frequências</td>
+    <td rowspan="5">EP06 - Gerenciamento de frequências</td>
     <td>[US22] Acesso de Frequências</td>
     <td>Eu, como aluno, quero conseguir acessar minha frequência para saber a quantidade de faltas que tenho.</td>
-    <td rowspan="4">Acesso à quantidade de faltas e presenças de cada aluno individualmente</td>
+    <td rowspan="5">Acesso à quantidade de faltas e presenças de cada aluno individualmente</td>
 </tr>
 <tr>
     <td>[US22] Acesso de Frequências</td>
