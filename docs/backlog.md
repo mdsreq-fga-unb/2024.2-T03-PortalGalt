@@ -4,7 +4,7 @@ Abaixo a lista de épcios e histórias de usuários identificados pela equipe.
 
 <table>
 <tr>
-    <td>Épico</td><td>User Story</td><td>descrição</td><td>objetivo</td>
+    <td>Épico</td><td>Histórias de Usuário</td><td>Descrição</td><td>Objetivo</td>
 </tr>
 <tr>
     <td rowspan="4">EP01 - Gerenciamento de contas</td><td>[US01] Login na Plataforma</td><td>Eu, como usuário, quero logar na plataforma para ter acesso ao site </td><td rowspan="4">Conseguir acessar informações pessoais sobre o cursinho</td>
@@ -140,13 +140,13 @@ Abaixo a lista de épcios e histórias de usuários identificados pela equipe.
 ## Tabela de Valoração
 <table>
     <tr>
-        <td>épico</td>
+        <td>Épico</td>
         <td>US&#39;s</td>
-        <td>valor de Negocio PO</td>
+        <td>Valor de Negócio (PO)</td>
         <td>Complexidade</td>
         <td>Total</td>
-        <td>média por épico</td>
-        <td>dentro do MVP</td>
+        <td>Média por Épico</td>
+        <td>Dentro do MVP</td>
     </tr>
     <tr>
         <td rowspan="4">EP01 - Cadastro</td>
@@ -341,10 +341,6 @@ Abaixo a lista de épcios e histórias de usuários identificados pela equipe.
 ## MVP 1
 Devido a priorização da PO, foi identificado que os épicos de cadastro, simulado e frequência são os de mais importância para a empresa. Portanto, o MVP 1 será composto pelos épicos **EP01 - Cadastro**, **EP03 - Simulado**, **EP05 - Frequência**.
 
-# DoR e DoD
-
-Esta seção apresenta os critérios para garantir que as histórias de usuário estejam bem definidas antes de serem trabalhadas e completamente finalizadas antes de serem entregues.
-
 ## Definition of Ready (DoR)
 
 O Definition of Ready especifica os critérios mínimos que uma história de usuário deve atender antes de ser aceita para o desenvolvimento. Os critérios incluem:
@@ -399,3 +395,4 @@ O Definition of Done define os critérios para considerar uma história de usuá
 | Data | Versão | Descrição | Autores |
 | ---- | ------- | ---------- | ------ |
 | 15/12/2024 | 0.1 | Criando backlog | Pedro Cruz |
+| 16/12/2024 | 1.0 | Adicionando DoR e DoD | Paola Rebeca |
