@@ -2,3 +2,6 @@
 
 ## Unidade 1
 <p style="text-indent: 50px;text-align: justify;">Uma lição importante aprendida no projeto com o cliente real foi a necessidade de organizar as entregas e definir metas claras para garantir o progresso. Dividir o projeto em etapas com prazos definidos ajudou a manter o foco e permitiu que o cliente acompanhasse o avanço de cada fase. Estabelecemos metas intermediárias, que facilitaram ajustes rápidos e reduziram o risco de desvios em relação ao objetivo final. A organização das entregas em cronogramas detalhados, previamente alinhados com o cliente, também ajudou a gerenciar expectativas e proporcionou um fluxo de trabalho mais eficiente e transparente para todos os envolvidos.</p>
+
+## Unidade 2
+Aprendemos que a declaração de requisitos deve ser clara, específica e mensurável para evitar ambiguidades e alinhar as expectativas dos stakeholders. Já a definição do MVP (Produto Mínimo Viável) é fundamental para entregar valor rapidamente, priorizando as funcionalidades essenciais que atendam às necessidades dos usuários e objetivos do negócio. Ambos os conceitos são cruciais para reduzir riscos e garantir o sucesso do projeto de software.
