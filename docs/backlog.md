@@ -89,10 +89,6 @@ Abaixo a lista de épcios e histórias de usuários identificados pela equipe.
     <td rowspan="5">Acesso à quantidade de faltas e presenças de cada aluno individualmente</td>
 </tr>
 <tr>
-    <td>[US22] Acesso de Frequências</td>
-    <td>Eu, como aluno, quero conseguir acessar minha frequência para saber a quantidade de faltas que tenho.</td>
-</tr>
-<tr>
     <td>[US23] Lançamento de Frequência</td>
     <td>Eu, como administrador, quero poder lançar a frequência dos alunos para informá-los das faltas e presença deles.</td>
 </tr>
