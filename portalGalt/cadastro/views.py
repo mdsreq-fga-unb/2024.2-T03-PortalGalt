@@ -40,3 +40,7 @@ def signup(request):
 @permission_classes([IsAuthenticated])
 def test_token(request):
     return Response(f"passed for {request.user.email}")
+
+@api_view(['GET'])
+def hello(request):
+    return Response(f'hello wolrd')
