@@ -13,6 +13,9 @@ nav:
   - Backlog: 
     - Requisitos de Software: 'requisitos.md'
     - Backlog do Produto: 'backlog.md'
+  - Estudos de Caso:
+    - Product Backlog Building: 'PBB.md'
+    - User Story Mapping: 'USM.md'
   - Lições Aprendidas: 'licoesaprendidas.md'
   - Videos de apresetanção: videos_apresentacao.md
 
