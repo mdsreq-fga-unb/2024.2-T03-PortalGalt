@@ -339,7 +339,7 @@ Devido a priorização da PO, foi identificado que os épicos de simulado e freq
 
 ### observação
 A partir da atualização 1.1 as histórias 23, 24, 25 dentro do épico do de frequencia de usuário foram retiradas do MVP depois de reuniões com o PO 
-e outros membros do Galt. Não há mais a necessidade de adicionar e atualizar frequencia por meio do site  pois já foi implementado um banco de dados
+e outros membros do Galt. Não há mais a necessidade de adicionar e atualizar frequencia por meio do site pois já foi implementado um banco de dados
 que realiza a mesma função dentro do cursinho. Agora a história 22 de visualização de frequencia conversará com o banco de dados do Galt.
 
 ## Definition of Ready (DoR)
