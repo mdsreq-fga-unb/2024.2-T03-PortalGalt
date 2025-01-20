@@ -9,6 +9,7 @@
 | Elicitação e Descoberta | Levantamento de Requisitos | Entrevista, Análise de Dominío de Negócio | Descoberta de requisitos de alto nível e mapeamento do objetivo de entrega da release. | 
 | Análise e Consenso | Priorização de Requisitos | Priorização MoSCoW | Garantir que as funcionalidades essenciais sejam entregues primeiro, enquanto as menos críticas podem ser trabalhadas conforme o tempo permite. | 
 | Declaração | Registro dos Requisitos | Temas, Épicos e Histórias de Usuário | Histórias de usuário registradas e compreendidas pela equipe e pelo PO. | 
+| Verificação e Validação | Validação de Requisitos | Checklist | Verificar se os requisitos e histórias de usuário estão bem declarados e de acordo com o objetivo de entrega da release. |  
 | Organização e Atualização | Organização de Requisitos | Pontos por História | Organização do backlog do produto com histórias ordenadas por nível de importância. | 
 
 
@@ -25,6 +26,10 @@
 
 * **Temas, Épicos e Histórias de Usuário:** Permite descrever os requisitos com um nível mais alto de detalhes, garantindo à equipe uma compreensão precisa das características que uma funcionalidade do produto deve ter.
 
+*Verificação e Validação:*
+
+* **Checklist:** Checar se os requisitos estão declarados corretamente e se eles fazem sentindo com a proposta da release e do projeto.
+
 *Organização e Atualização:*
 
 * **Pontos por Histórias:** Estratégia que pontua as histórias de acordo com a importância delas. No caso do projeto Portal Galt, as histórias foram pontuadas de acordo com o valor de negócio e a complexidade de cada uma.
@@ -36,6 +41,7 @@
 | Elicitação e Descoberta | Refinamento de Requisitos | Discussão em equipe | Definição dos requisitos da sprint vindoura. | 
 | Análise e Consenso | Análise de Dependências | Discussões em equipe e Análise de tarefas | Consenso da equipe da capacidade de entrega e possibilidades para a sprint. | 
 | Declaração | Definição dos Critérios de Aceitação | Histórias de Usuário com critérios de aceitação detalhados | Revisão e refinamento das histórias de usuário. |
+| Verificação e Validação | Validação de Histórias de Usuário | Definition of Ready | Verificar se as histórias de usuários estão prontas para serem trabalhadas na sprint.  |  
 | Organização e Atualização | Refinamento dos Requisitos | Pontos por História | Definição do Backlog da sprint baseado em prioridade de entrega. | 
 
 *Elicitação e Descoberta:*
@@ -51,6 +57,10 @@
 
 * **Histórias de Usuário:** As histórias de usuário escritas passarão por um refinamento com o objetivo de esclarecer e detalhar os critérios de aceitação e as tarefas necessárias, para que, durante a execução da sprint, o time não enfrente dúvidas ou ambiguidades. 
 
+*Verificação e Validação:*
+
+* **Definition of Ready:** Verificar se as histórias de usuário estão prontas para desenvolvimento, de acordo com os [critérios definidos](backlog.md#definition-of-ready-dor) de DoR do projeto.
+
 *Organização e Atualização:*
 
 * **Pontos por Histórias:** A equipe selecionará as histórias de usuário com maior pontuação para compor o backlog da sprint. Dessa forma, as histórias que trazem mais valor de negócio para o cliente serão entregues prioritariamente.
@@ -60,7 +70,7 @@
 | Atividades de ER | Prática | Técnica | Resultado Esperado |
 | ---------- | ----------- | -------------- | -------------- | 
 | Representação | Criação de protótipos | Prototipagem | Obter versões preliminares do sistema para validar ideias e requisitos. | 
-| Verificação e Validação | Reuniões entre a equipe e revisão de código | Feedback entre pares | Obter feedback contínuo entre a equipe para alinhar o desenvolvimento. | 
+| Verificação e Validação | Reuniões entre a equipe e revisão de código | Feedback entre pares e Definition of Done | Obter feedback contínuo entre a equipe para alinhar o desenvolvimento e validar as histórias de usuário trabalhadas. | 
 | Organização  e Atualização | Organizar tarefas da sprint | Discussão em equipe | Garantir que as funcionalidades essenciais sejam entregues primeiro, enquanto as menos críticas podem ser trabalhadas conforme o tempo permite. | 
 
 *Representação:*
@@ -70,6 +80,7 @@
 *Verificação e Validação:*
 
 * **Feedback entre pares:** Haverá feedback entre os membros do time sobre o que está sendo implementado, com possibilidade de novas ideias e sugestões.
+* **Definition of Done:** Verificar se as histórias de usuário podem ser consideradas como finalizadas de acordo com os [critérios definidos](backlog.md#definition-of-done-dod) no DoD.
 
 *Organização e Atualização:*
 
@@ -97,8 +108,9 @@
 | ---------- | ----------- | -------------- | -------------- | 
 | Elicitação e Descoberta | Identifição de novos requisitos | Discussão da Equipe e Análise de Tarefas  | Ajuste e atualização dos requisitos considerando o feedback do PO e as novas necessidades. | 
 | Análise e Consenso | Priorização estratégica | Análise de domínio de requisito e priorização MoSCoW | Lista dos requisitos que incluidos na proxíma release. | 
-| Organização e Atualização | Revisão do backlog | Revisão do backlog da release | Atualização das entregas do backlog para a release seguinte. | 
 | Declaração | Definição de épicos e de Histórias de Usuário | Criação dos épicos e histórias de usuários | Histórias de Usuários definidas para serem trabalhadas na proxíma release. | 
+| Verificação e Validação | Verificação do Backlog da Release | Checklist e Definition of Ready | Verificação das Histórias de Usuário que serão trabalhadas na proxíma release. | 
+| Organização e Atualização | Revisão do backlog | Revisão do backlog da release | Atualização das entregas do backlog para a release seguinte. | 
 
 *Elicitação e Descoberta:*
 
@@ -113,6 +125,10 @@
 
 * **Criação dos épicos e histórias de usuários:** Criação de novos épicos e histórias de usuário, bem como o detalhamento das já existentes, visando o desenvolvimento na próxima release.
 
+*Verificação e Validação:*
+
+* **Checklist do Definition of Ready:** Validar se as histórias de usuário planejadas para a próxima release estão prontas e se podem entrar no backlog de produção da release seguinte, seguindo os critérios do [DoR](backlog.md#definition-of-ready-dor). 
+
 *Organização e Atualização:*
 
 * **Revisão do backlog da release:** Atualização do backlog considerando as histórias que já foram entregues, as novas histórias criadas e as próximas a serem desenvolvidas.
@@ -123,4 +139,5 @@
 | Data | Versão | Descrição | Autores |
 | ---------- | ----------- | -------------- | -------------- |
 | 15/12/2024 | 1.0 | Criação da página Engenharia de Requisitos | Cairo Florenço |
-| 16/12/2021 | 1.1 | Preenchimento das tabelas de atividades da ER | João Pedro |
+| 16/12/2024 | 1.1 | Preenchimento das tabelas de atividades da ER | João Pedro |
+| 20/01/2025 | 2.0 | Atualização das tabelas de atividades da ER | Cairo Florenço |
