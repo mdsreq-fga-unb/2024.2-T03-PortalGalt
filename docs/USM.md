@@ -7,6 +7,8 @@ incentiva os professores a fazerem atividades interdisciplinares em parceria com
 
 > Baseado em "Exercício de Construção de Backlog de Produto usando USM" passado em sala de aula pelo Prof. Dr. George Marsicano
 
+Atividade realizada no MIRO, acesse [por aqui.](https://miro.com/welcomeonboard/VTY4dS9NUXJDOGJWSmcveXpiblY3b0Z6aFZoQks5NlBXS3JpRk5rbGgxb0JtUlRMc3FpTnZVQWFGR2dTVk1BNkxwU3lzK2w0cE9saUxIRzBMa05vNlpuSnRRN0I4ckZRdUVjaFIweUtHTGJwcjBwYUJwL2szb1BDSTJKdnFBdUkhZQ==?share_link_id=76883198574)
+
 ## Identificação do Produto:
 
 ![o que é](images/usm/oque.png)

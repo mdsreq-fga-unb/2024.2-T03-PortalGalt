@@ -6,6 +6,8 @@ A atividade realizada em sala de aula envolveu o desenvolvimento do Product Back
 
 > Baseado em "Exercício de Construção de Backlog de Produto usando PBB (Product Backlog Building)" passado em sala de aula pelo Prof. Dr. George Marsicano
 
+Atividade realizada no MURAL, template feito por Fábio Aguiar, acesse [por aqui.](https://app.mural.co/t/paolaa3026/m/paolaa3026/1736422556978/40e12132ed94e691a217f3b1c2971668f1b821ab?sender=u14beb7775f588ca67f430727)
+
 ## Identificação do Produto:
 
 ![alt text](images/pbbname.png)
