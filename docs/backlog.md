@@ -397,4 +397,4 @@ O Definition of Done define os critérios para considerar uma história de usuá
 | ---- | ------- | ---------- | ------ |
 | 15/12/2024 | 0.1 | Criando backlog | Pedro Cruz |
 | 16/12/2024 | 1.0 | Adicionando DoR e DoD | Paola Rebeca |
-| 20/01/2025 | 0.1 | Atualização do backlog | Pedro Cruz |
+| 20/01/2025 | 2.0 | Atualização do backlog | Pedro Cruz |
