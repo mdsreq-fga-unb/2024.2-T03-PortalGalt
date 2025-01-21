@@ -76,4 +76,4 @@
 | Data | Versão | Descrição | Autores |
 | ---------- | ----------- | -------------- | -------------- |
 | 09/11/2024 | 1.0 | Criação do documento de Visão do Projeto | Cairo Florenço, João Pedro, Paola Rebeca, Pedro Fonseca |
-| 20/01/2024 | 1.1 | Revisando o cronograma e apdatando ele para entrega da unidade 3 | Pedro Fonseca
+| 20/01/2024 | 1.1 | Revisando o cronograma e apdatando ele para entrega da unidade 3 | Pedro Fonseca |
