@@ -1,10 +1,11 @@
-# Estudo de Caso "TechFix"
+# Estudo de Caso "EduConnct"
 
 ## Contexto:
 
-A atividade realizada em sala de aula envolveu o desenvolvimento do Product Backlog Building (PBB) para a TechFix, uma empresa especializada em suporte técnico e manutenção de equipamentos para clientes corporativos e residenciais. Apesar de sua reconhecida expertise, a TechFix enfrenta desafios que comprometem sua reputação e eficiência operacional.
+A atividade realizada em sala de aula envolveu o desenvolvimento do User Story Mapping para a EduConnect, uma escola que tem uma metodologia própria de ensino. A escola
+incentiva os professores a fazerem atividades interdisciplinares em parceria com vários professores. Os alunos realizam uma série de atividades diferentes conceitualizada pelo professor coordenador, e aplicada pelos professores participante. A metodologia inovadora trouxe vários desafios de organização para a equipe pedagógica e interessados, por isso se mostra necessário um produto de software para ajudar a combate-los.
 
-> Baseado em "Exercício de Construção de Backlog de Produto usando PBB (Product Backlog Building)" passado em sala de aula pelo Prof. Dr. George Marsicano
+> Baseado em "Exercício de Construção de Backlog de Produto usando USM" passado em sala de aula pelo Prof. Dr. George Marsicano
 
 ## Identificação do Produto:
 
