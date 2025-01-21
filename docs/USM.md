@@ -39,3 +39,220 @@ incentiva os professores a fazerem atividades interdisciplinares em parceria com
 
 
 ## Histórias de Usuários:
+
+### ALUNO
+US-01 [Escolher projetos de interesse]
+Eu, como aluno, quero escolher os projetos do meu interesse para que eu possa participar de projetos alinhados às minhas expectativas.
+Critérios de aceitação:
+O aluno deve ser capaz de visualizar uma lista de projetos disponíveis.
+O sistema deve permitir a seleção de projetos específicos pelo aluno.
+Apenas projetos ainda disponíveis devem ser exibidos para inscrição.
+
+US-02 [Inscrever-se em projetos]
+Eu, como aluno, quero me inscrever em projetos disponíveis para que eu possa participar das atividades.
+Critérios de aceitação:
+O sistema deve permitir que o aluno realize a inscrição diretamente pela interface.
+O aluno deve receber uma confirmação da inscrição bem-sucedida.
+O sistema deve registrar a participação do aluno no projeto selecionado.
+
+US-03 [Visualizar cronogramas e tarefas]
+Eu, como aluno, quero visualizar cronogramas e tarefas atribuídas para que eu possa organizar as atividades do projeto.
+Critérios de aceitação:
+O sistema deve exibir cronogramas detalhados dos projetos.
+O aluno deve conseguir visualizar tarefas atribuídas com prazos e status.
+O cronograma deve ser atualizado conforme mudanças nas atividades.
+
+US-04 [Acompanhar progresso no projeto]
+Eu, como aluno, quero acompanhar o meu progresso geral do projeto para que eu possa me organizar com as atividades.
+Critérios de aceitação:
+O sistema deve exibir o progresso em porcentagem ou gráficos.
+O aluno deve ser capaz de visualizar conquistas e tarefas pendentes.
+O progresso deve refletir atualizações em tempo real com base nas atividades concluídas.
+
+US-05 [Receber notificações de feedback]
+Eu, como aluno, quero receber notificações de feedback para melhorar meu desempenho.
+Critérios de aceitação:
+O sistema deve enviar notificações sempre que um feedback for publicado.
+As notificações devem incluir o nome do professor e o contexto do feedback.
+O aluno deve poder acessar diretamente o feedback pela notificação.
+
+US-06 [Visualizar comentários detalhados]
+Eu, como aluno, quero visualizar comentários detalhados sobre o meu desempenho para que eu possa melhorar meu desempenho.
+Critérios de aceitação:
+O aluno deve ter acesso a comentários detalhados em cada tarefa realizada.
+O sistema deve exibir sugestões para melhoria específicas.
+Os comentários devem estar organizados por tarefa ou data.
+
+US-07 [Solicitar revisões ou esclarecimentos]
+Eu, como aluno, quero solicitar esclarecimentos ou revisões para que eu possa realizar correções nas minhas atividades.
+Critérios de aceitação:
+O sistema deve permitir que o aluno envie solicitações diretamente aos professores.
+As solicitações devem incluir contexto e detalhes da tarefa em questão.
+O professor deve ser notificado quando um pedido de revisão for enviado.
+
+US-08 [Acessar histórico de feedbacks]
+Eu, como aluno, quero acessar o histórico de feedbacks anteriores para que eu possa acompanhar os feedbacks.
+Critérios de aceitação:
+O histórico deve listar todos os feedbacks recebidos, organizados por tarefa ou data.
+O aluno deve conseguir visualizar os detalhes de cada feedback.
+O sistema deve permitir busca ou filtragem no histórico.
+
+US-09 [Participar de chats ou fóruns internos]
+Eu, como aluno, quero participar de chats ou fóruns internos para o projeto para que eu possa ajudar e ser ajudado pelos meus colegas.
+Critérios de aceitação:
+O sistema deve disponibilizar um espaço para comunicação interna.
+O aluno deve ser capaz de enviar mensagens e visualizar respostas.
+O chat ou fórum deve ser restrito aos participantes do projeto.
+
+US-10 [Compartilhar ideias e arquivos]
+Eu, como aluno, quero compartilhar ideias e arquivos com colegas para que eu possa comparar meus resultados e colaborar com a turma.
+Critérios de aceitação:
+O sistema deve permitir o envio de arquivos de diferentes formatos.
+As ideias e arquivos compartilhados devem estar visíveis para todos os participantes.
+O sistema deve permitir comentários ou reações aos conteúdos compartilhados.
+
+US-11 [Agendar reuniões de equipe]
+Eu, como aluno, quero criar ou agendar reuniões de equipe para que a interação entre os colegas seja mais eficiente e facilite a colaboração no desenvolvimento do projeto.
+Critérios de aceitação:
+O sistema deve permitir agendamento de reuniões com data e horário.
+Todos os membros da equipe devem ser notificados do agendamento.
+O sistema deve gerar um link para videoconferência ou instruções para a reunião presencial.
+
+US-12 [Fornecer feedback aos colegas]
+Eu, como aluno, quero fornecer feedback sobre contribuições dos colegas para que a equipe evolua em conjunto.
+Critérios de aceitação:
+O aluno deve ser capaz de enviar feedbacks para contribuições específicas.
+O feedback deve ser registrado e visível apenas para o destinatário e coordenadores.
+O sistema deve permitir o registro de feedbacks positivos e sugestões de melhoria.
+
+US-13 [Registrar atividades em diário de bordo]
+Eu, como aluno, quero registrar atividades realizadas em um diário de bordo digital para que eu possa organizar meu progresso.
+Critérios de aceitação:
+O diário deve permitir registro de atividades com descrição e data.
+O aluno deve poder visualizar e editar entradas anteriores.
+As entradas devem ser vinculadas aos projetos em andamento.
+
+US-14 [Fazer upload de documentos]
+Eu, como aluno, quero fazer upload de documentos ou entregas finais para que eu possa salvar meus arquivos.
+Critérios de aceitação:
+O sistema deve permitir envio de documentos com limites de tamanho.
+O aluno deve ser capaz de visualizar e baixar os arquivos enviados.
+O sistema deve organizar os arquivos por projeto ou atividade.
+
+US-15 [Preencher autoavaliações]
+Eu, como aluno, quero preencher autoavaliações sobre participação no projeto para que eu possa analisar meu desempenho.
+Critérios de aceitação:
+O sistema deve disponibilizar formulários de autoavaliação para os alunos.
+O aluno deve receber uma análise consolidada ao concluir o formulário.
+As autoavaliações devem ser armazenadas para consulta futura.
+
+US-16 [Compartilhar aprendizados ao final do projeto]
+Eu, como aluno, quero compartilhar aprendizados e reflexões ao final do projeto para que eu possa aplicar melhorias aos próximos projetos.
+Critérios de aceitação:
+O aluno deve ser capaz de registrar reflexões em um espaço dedicado.
+O sistema deve organizar os aprendizados por projeto finalizado.
+Os aprendizados compartilhados devem ser acessíveis para consulta futura.
+
+### PAIS/RESPONSÁVEL
+US-17 [Visualizar informações]
+Eu, como responsável, quero visualizar o projeto para obter informações do mesmo.
+US-18 [Confirmar participação]
+Eu, como responsável, quero confirmar a participação do filho no projeto para visualizar a participação no mesmo.
+US-19 [Acompanhar progresso]
+Eu, como responsável, quero acompanhar o progresso do filho para visualizar seu desempenho.
+US-20 [Acesso a reuniões]
+Eu, como responsável, quero participar de reuniões e eventos para me atualizar sobre as mudanças.
+US-21 [Enviar feedbacks]
+Eu, como responsável, quero enviar feedbacks aos professores para sugerir alterações no projeto.
+US-22 [Comunicar gestores]
+Eu, como responsável, quero me comunicar com professores e coordenadores para manter um contato próximo com os responsáveis do projeto.
+US-23 [Receber atualizações personalizadas]
+Eu, como responsável, quero receber atualizações personalizadas para acompanhar melhor o desempenho do filho.
+US-24 [Participação em atividades colaborativas]
+Eu, como responsável, quero participar de atividades colaborativas para incentivar o desempenho e progresso no projeto.
+US-25 [Acessar relatórios detalhados]
+Eu, como responsável, quero acessar relatórios detalhados para visualizar o que pode ser melhorado no projeto.
+US-26 [Atualizar informações de cadastro]
+Eu, como responsável, quero gerenciar informações de cadastro para atualizar informações se necessário.
+US-27 [Consultar calendários e prazos]
+Eu, como responsável, quero consultar o calendário de atividades e prazos para me manter informado sobre as atividades.
+US-28 [Visualizar definição de metas colaborativas]
+Eu, como responsável, quero visualizar a definição de metas colaborativas para acompanhar o desempenho do projeto.
+
+### ESPECIALISTA EXTERNO
+US-29 [Participar de sessões de perguntas e respostas]
+Eu, como especialista externo, quero participar de sessões de perguntas e respostas com os alunos para compartilhar experiências com eles.
+US-30 [Realizar palestras]
+Eu, como especialista externo, quero realizar palestras sobre minha área de expertise para compartilhar experiências com os alunos.
+US-31 [Apresentar resultados alcançados]
+Eu, como especialista externo, quero apresentar resultados alcançados para compartilhar experiências com os alunos.
+US-32 [Coletar sugestões para melhorias]
+Eu, como especialista externo, quero coletar sugestões para melhorar meu trabalho.
+US-33 [Participar de reuniões de feedback]
+Eu, como especialista externo, quero participar de reuniões de feedback com professores e alunos para melhorar meu trabalho.
+US-34 [Analisar relatórios de impacto]
+Eu, como especialista externo, quero analisar relatórios sobre o impacto de minhas contribuições nos projetos para melhorar meu trabalho.
+US-35 [Ajustar apresentações e materiais]
+Eu, como especialista externo, quero ajustar apresentações e materiais com base no feedback recebido para melhorar meu trabalho.
+US-36 [Participar de reuniões de alinhamento]
+Eu, como especialista externo, quero participar de reuniões para definir expectativas e responsabilidades, para estar melhor informado sobre meu trabalho.
+US-37 [Consultar cronograma de atividades]
+Eu, como especialista externo, quero consultar o cronograma de atividades para estar melhor informado sobre meu trabalho.
+US-38 [Revisar orientações do projeto]
+Eu, como especialista externo, quero ler e revisar orientações sobre meu papel no projeto para estar melhor informado sobre minha responsabilidade.
+
+
+### PROFESSOR PARTICIPANTE
+US-39 [Receber lembretes das atividades]
+Eu, como professor participante, quero receber lembretes das atividades marcadas para que eu possa me organizar e acompanhar as tarefas dos alunos de forma eficiente.
+US-40 [Notificar andamento da atividade]
+Eu, como professor participante, quero notificar o andamento da atividade para que os alunos estejam cientes do progresso e possam ajustar suas ações quando necessário.
+US-41 [Enviar materiais relevantes para a atividade]
+Eu, como professor participante, quero enviar materiais relevantes para a atividade para que os alunos tenham recursos adequados para realizar as tarefas.
+US-42 [Visualizar informações dos projetos]
+Eu, como professor participante, quero visualizar informações dos projetos para que eu possa acompanhar o desenvolvimento e oferecer suporte direcionado.
+US-43 [Receber entregas dos alunos]
+Eu, como professor participante, quero receber entregas feitas pelos alunos para que eu possa avaliar e oferecer feedback sobre as atividades realizadas.
+US-44 [Receber relatório de engajamento dos alunos]
+Eu, como professor participante, quero receber relatório de engajamento dos alunos para que eu possa identificar alunos que precisam de mais suporte.
+US-45 [Avaliar projetos e entregar feedback]
+Eu, como professor participante, quero avaliar projetos e entregar feedback para que os alunos possam melhorar suas entregas e atingir os objetivos do projeto.
+US-46 [Comunicar com coordenadores e professores]
+Eu, como professor participante, quero me comunicar com coordenadores e professores para que eu possa alinhar objetivos e resolver problemas de forma colaborativa.
+
+
+### PROFESSOR COORDENADOR
+US-47 [Criar e editar documentos]
+Eu, como professor coordenador, quero criar e editar documentos para gerenciar conteúdos do projeto.
+US-48 [Enviar e receber mensagens]
+Eu, como professor coordenador, quero enviar e receber mensagens para manter comunicação com a equipe e participantes.
+US-49 [Avaliar resultados dos alunos]
+Eu, como professor coordenador, quero avaliar os resultados dos alunos para acompanhar seu desempenho e progresso.
+US-50 [Organizar documentos]
+Eu, como professor coordenador, quero organizar documentos para facilitar o acesso e consulta das informações do projeto.
+US-51 [Visualizar atividades em aplicação]
+Eu, como professor coordenador, quero visualizar atividades em aplicação para monitorar o andamento do projeto.
+US-52 [Definir critérios de aplicação]
+Eu, como professor coordenador, quero definir critérios de aplicação para garantir que as atividades atendam aos objetivos pedagógicos.
+US-53 [Criar calendários de atividades]
+Eu, como professor coordenador, quero criar calendários de atividades para organizar o cronograma do projeto.
+US-54 [Designar atividades para professores]
+Eu, como professor coordenador, quero designar atividades para professores participantes para distribuir tarefas de forma eficiente.
+US-55 [Definir papeis de membros das equipes]
+Eu, como professor coordenador, quero definir papeis de membros das equipes para estruturar melhor as responsabilidades.
+US-56 [Realizar reuniões com professores]
+Eu, como professor coordenador, quero realizar reuniões com professores para alinhar estratégias e metas do projeto.
+US-57 [Enviar mensagens aos pais]
+Eu, como professor coordenador, quero enviar mensagens para os pais dos alunos para mantê-los informados sobre o progresso.
+US-58 [Gerir recursos e materiais]
+Eu, como professor coordenador, quero gerir recursos e materiais para garantir que todos tenham o suporte necessário.
+
+### COORDENADOR PEDAGÓGICO
+US-59 [Definir prazos e etapas dos projetos]
+Eu, como coordenador pedagógico, quero definir prazos e etapas claras para a execução dos projetos para garantir que todas as atividades sejam realizadas dentro do cronograma previsto.
+US-60 [Analisar objetivos e metodologias dos projetos]
+Eu, como coordenador pedagógico, quero analisar os objetivos e metodologias dos projetos para assegurar que estejam alinhados aos objetivos educacionais da instituição.
+US-61 [Orientar equipes sobre ajustes nos projetos]
+Eu, como coordenador pedagógico, quero orientar as equipes sobre os ajustes necessários nos projetos para que os objetivos educacionais sejam alcançados de forma eficiente.
+US-62 [Monitorar progresso de múltiplos projetos]
+Eu, como coordenador pedagógico, quero monitorar o progresso de múltiplos projetos simultaneamente para manter uma visão geral e garantir que o programa educacional como um todo esteja bem encaminhado.
