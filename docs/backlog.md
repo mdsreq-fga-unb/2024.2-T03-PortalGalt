@@ -315,27 +315,32 @@ Abaixo a lista de épcios e histórias de usuários identificados pela equipe.
         <td>5</td>
         <td>4</td>
         <td>4</td>
-        <td>MVP</td>
+        <td></td>
     </tr>
     <tr>
         <td>US24</td>
         <td>5</td>
         <td>3</td>
         <td>4</td>
-        <td>MVP</td>
+        <td></td>
     </tr>
     <tr>
         <td>US25</td>
         <td>5</td>
         <td>2</td>
         <td>4</td>
-        <td>MVP</td>
+        <td></td>
     </tr>
 </table>
 
 
 ## MVP 1
-Devido a priorização da PO, foi identificado que os épicos de cadastro, simulado e frequência são os de mais importância para a empresa. Portanto, o MVP 1 será composto pelos épicos **EP01 - Cadastro**, **EP03 - Simulado**, **EP05 - Frequência**.
+Devido a priorização da PO, foi identificado que os épicos de simulado e frequência são os de mais importância para a empresa. Cadastro foi adicionado também por que os outros épicos tem depencia com o épico de cadastro. Portanto, o MVP 1 será composto pelos épicos **EP01 - Cadastro**, **EP03 - Simulado**, **EP05 - Frequência**.
+
+### observação
+A partir da atualização 1.1 as histórias 23, 24, 25 dentro do épico do de frequencia de usuário foram retiradas do MVP depois de reuniões com o PO 
+e outros membros do Galt. Não há mais a necessidade de adicionar e atualizar frequencia por meio do site pois já foi implementado um banco de dados
+que realiza a mesma função dentro do cursinho. Agora a história 22 de visualização de frequencia conversará com o banco de dados do Galt.
 
 ## Definition of Ready (DoR)
 

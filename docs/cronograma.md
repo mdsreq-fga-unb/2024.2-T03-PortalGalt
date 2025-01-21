@@ -40,39 +40,40 @@
 <tr>
 <td>Sprint 4</td>
 <td>16/12/2024</td>
-<td>10/01/2025</td>
-<td>Frequência dos alunos</td>
-<td>Receber frequência dos professores e salvar dentro do sistema / Visualização de frequência para alunos e professores / Integração com o sistema de pontos do Galt</td>
-<td>Validação da frequência dos alunos e conferir se os responsáveis pela frequência vão ser capazes de usar</td>
+<td>13/01/2025</td>
+<td> Cadastro </td>
+<td>Entrega das histórias [[US01] Login na Plataforma](backlog.md#épicos-e-histórias-de-usuário), [[US02] Criação de Contas](backlog.md#épicos-e-histórias-de-usuário), [[US03] Atualização de Contas de Alunos](backlog.md#épicos-e-histórias-de-usuário), [[US04] Exclusão Contas](backlog.md#épicos-e-histórias-de-usuário)</td>
+<td>Validação do processo de cadastro e login</td>
 </tr>
 <tr>
 <td>Sprint 5</td>
 <td>13/01/2025</td>
-<td>24/01/2025</td>
-<td>Segunda Entrega - Processamento dos resultados de simulado</td>
-<td>Entrega da segunda release (Frequência e Processamento de resultado dos simulados) / Receber dados brutos do questionário de cada aluno e comparar com o gabarito da prova</td>
-<td>Revisar como o processamento de simulados é feito, feedback da segunda entrega</td>
+<td>27/01/2025</td>
+<td>Frequência dos Alunos</td>
+<td>[[US22] Acesso de Frequências](backlog.md#épicos-e-histórias-de-usuário)
+</td>
+<td>Acesso ao banco de dados do Galt e apoiar o processo de integração. Validação da visualização de frequência</td>
 </tr>
 <tr>
 <td>Sprint 6</td>
 <td>27/01/2025</td>
 <td>13/02/2025</td>
-<td>Entrega Final e Visualização do resultado de simulados</td>
-<td>Criar visualizações personalizadas para cada aluno e turma / Criar gráficos comparando o desempenho do aluno com desempenhos passados e de colegas / Teste com professores, alunos e administradores</td>
+<td> Visualização do simulado </td>
+<td> [[US09] Acesso a notas de simulados](backlog.md#épicos-e-histórias-de-usuário), [[US10] Postagem de Notas dos Simulados](backlog.md#épicos-e-histórias-de-usuário#épicos-e-histórias-de-usuário), 
+[[US12] Gráficos de desempenho de simulados](backlog.md#épicos-e-histórias-de-usuário#épicos-e-histórias-de-usuário), [[US11] Exclusão de Notas dos Simulados](backlog.md#épicos-e-histórias-de-usuário#épicos-e-histórias-de-usuário)  </td>
 <td>Validar quais tipos de comparação o pedagógico do cursinho quer, validar visualização dos resultados, testar produto com membros do Galt</td>
 </tr>
 </table>
 
 ## Considerações Importantes
 
-1. Data de Início e Fim: Cada sprint tem a duração de duas semanas começando em 11/11/2024 e acabando 13/02/2025. Apenas as sprints 4 e 7 são reduzidas, de uma semana apenas. Isso já está fatorado no cronograma. 
+1. Validação ao final de cada sprint: Ao final de cada sprint o cliente irá validar o trabalho feito e se for o caso ajustar a entrega ao gosto dele.
 
-2. Validação ao final de cada sprint: Ao final de cada sprint o cliente irá validar o trabalho feito e se for o caso ajustar a entrega ao gosto dele.
-
-3. Entregas parciais: Dentro do cronograma está prevista entregas parciais ao longo do semestre, dando a possibilidade do cliente conferir o progresso do projeto.
+2. Entregas parciais: Dentro do cronograma está prevista entregas parciais ao longo do semestre, dando a possibilidade do cliente conferir o progresso do projeto.
 
 *Histórico de Revisão*
 
 | Data | Versão | Descrição | Autores |
 | ---------- | ----------- | -------------- | -------------- |
 | 09/11/2024 | 1.0 | Criação do documento de Visão do Projeto | Cairo Florenço, João Pedro, Paola Rebeca, Pedro Fonseca |
+| 20/01/2024 | 1.1 | Revisando o cronograma e apdatando ele para entrega da unidade 3 | Pedro Fonseca |
