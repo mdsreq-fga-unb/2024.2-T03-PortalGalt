@@ -1,7 +1,19 @@
 # Videos de apresentação
 
 ## Unidade 1
-<iframe src="https://unbbr.sharepoint.com/sites/Gruporequisitos/_layouts/15/embed.aspx?UniqueId=fe728b33-3f56-4900-ae61-d88b0034ff16&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="apresentação-20241111_220036-Gravação de Reunião.mp4"></iframe>
+
+Gravação expirou.
 
 ## Unidade 2
-<iframe src="https://unbbr.sharepoint.com/sites/Gruporequisitos/_layouts/15/embed.aspx?UniqueId=f687742b-36a9-4886-987d-1827ce0e1364&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="Reunião em _General_-20241216_213002-Gravação de Reunião.mp4"></iframe>
+
+[Confira aqui](https://youtu.be/T8wJG5iBFZI)
+
+[![alt text](images/thumb2.png)](https://youtu.be/T8wJG5iBFZI)
+
+
+## Unidade 3
+
+[Confira aqui](https://youtu.be/x82j3L76k-E)
+
+[![alt text](images/thumb3.png)](https://youtu.be/x82j3L76k-E)
+
