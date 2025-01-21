@@ -21,19 +21,19 @@ A atividade realizada em sala de aula envolveu o desenvolvimento do Product Back
 ## mapa completo:
 ![alt text](images/usm/mapa_completo.png)
 
-## Personas:
+## Caminhos:
 
-### Persona 1: Professor Coordenador
+### Professor Coordenador
 ![alt text](images/usm/professor_coordenador.png)
-### Persona 2: Professor Participante
+### Professor Participante
 ![alt text](images/usm/professor_participante.png)
-### Persona 3: alunos
+### alunos
 ![alt text](images/usm/alunos.png)
-### Persona 3: Pais/Responsáveis
+### Pais/Responsáveis
 ![alt text](images/usm/pais.png)
-### Persona 3: coordenador Pedagógico
+### coordenador Pedagógico
 ![alt text](images/usm/coordenador.png)
-### Persona 3: Especialista Externo
+### Especialista Externo
 ![alt text](images/usm/especialista.png)
 
 
