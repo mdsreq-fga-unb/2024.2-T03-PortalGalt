@@ -42,7 +42,7 @@
 <td>16/12/2024</td>
 <td>13/01/2025</td>
 <td> Cadastro </td>
-<td>Entrega das histórias [[US01] Login na Plataforma](backlog.md#épicos-e-histórias-de-usuário), [[US02] Criação de Contas](backlog.md#épicos-e-histórias-de-usuário), [[US03] Atualização de Contas de Alunos](backlog.md#épicos-e-histórias-de-usuário), [[US04] Exclusão Contas](backlog.md#épicos-e-histórias-de-usuário)</td>
+<td>Entrega das histórias [US01] Login na Plataforma, [US02] Criação de Contas, [US03] Atualização de Contas de Alunos, [US04] Exclusão Contas</td>
 <td>Validação do processo de cadastro e login</td>
 </tr>
 <tr>
@@ -50,7 +50,7 @@
 <td>13/01/2025</td>
 <td>27/01/2025</td>
 <td>Frequência dos Alunos</td>
-<td>[[US22] Acesso de Frequências](backlog.md#épicos-e-histórias-de-usuário)
+<td>[US22] Acesso de Frequências
 </td>
 <td>Acesso ao banco de dados do Galt e apoiar o processo de integração. Validação da visualização de frequência</td>
 </tr>
@@ -59,8 +59,8 @@
 <td>27/01/2025</td>
 <td>13/02/2025</td>
 <td> Visualização do simulado </td>
-<td> [[US09] Acesso a notas de simulados](backlog.md#épicos-e-histórias-de-usuário), [[US10] Postagem de Notas dos Simulados](backlog.md#épicos-e-histórias-de-usuário#épicos-e-histórias-de-usuário), 
-[[US12] Gráficos de desempenho de simulados](backlog.md#épicos-e-histórias-de-usuário#épicos-e-histórias-de-usuário), [[US11] Exclusão de Notas dos Simulados](backlog.md#épicos-e-histórias-de-usuário#épicos-e-histórias-de-usuário)  </td>
+<td> [US09] Acesso a notas de simulados, [US10] Postagem de Notas dos Simulados, 
+[US12] Gráficos de desempenho de simulados, [US11] Exclusão de Notas dos Simulados  </td>
 <td>Validar quais tipos de comparação o pedagógico do cursinho quer, validar visualização dos resultados, testar produto com membros do Galt</td>
 </tr>
 </table>
@@ -70,6 +70,8 @@
 1. Validação ao final de cada sprint: Ao final de cada sprint o cliente irá validar o trabalho feito e se for o caso ajustar a entrega ao gosto dele.
 
 2. Entregas parciais: Dentro do cronograma está prevista entregas parciais ao longo do semestre, dando a possibilidade do cliente conferir o progresso do projeto.
+
+3. para conhecer mais sobre histórias de usuária visite a seção [backlog](backlog.md#épicos-e-histórias-de-usuário)
 
 *Histórico de Revisão*
 
