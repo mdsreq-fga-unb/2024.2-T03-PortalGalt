@@ -97,7 +97,7 @@ Cenário: Técnico acessa o guia técnico
 **Quando** ele seleciona o "Guia Técnico Linux 2024",  
 **Então** o sistema deve exibir um guia com procedimentos e normas técnicos do Linux e a versão do guia deve ser a de 2024.
 
-### US04 - Listar visitar a serem realizadas
+### US04 - Listar visitas a serem realizadas
 
 >Eu, como técnico, quero listar visitas técnicas a serem realizadas para visualizar os detalhes das mesmas.
 
@@ -110,8 +110,8 @@ Critérios de Aceitação:
 Cenário: Técnico lista visitas a serem realizadas
 
 **Dado que** o técnico está na página de visitas,  
-**Quando** ele acessa a lista de visitas agendadas do dia "21/01/2025",  
-**Então** a visita marcada para as "8:00" deve aparecer antes da visita marcada para as "10:00".  
+**Quando** ele acessa a lista de visitas agendadas do dia "21/01/2025" e escolhe a visita marcada às "8:00",  
+**Então** ele visualiza o nome do cliente que receberá a visita: "Maria Amanda", o serviço que deve ser feito: "Reparo no computador" e o endereço: "Via Norte, Rua Beija-flor, casa 10".
 
 ### US05 - Reportar equipamentos reparados
 
