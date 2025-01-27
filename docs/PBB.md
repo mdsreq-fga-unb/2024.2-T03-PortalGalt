@@ -56,14 +56,14 @@ Atividade realizada no MURAL, template feito por Fábio Aguiar, acesse [por aqui
 
 Critérios de Aceitação: 
 
-* O técnico deve ser capaz de criar uma mensagem notificando o status da visita, com campos para o título e descrição.
-* O sistema deve permitir a inserção de detalhes como a data e hora da visita.
-* O status da visita deve ser visível para o diretor de operações.
+* O técnico deve ser capaz de criar uma mensagem notificando o status da visita, com campos para o título, descrição, data e hora da visita.  
+* O técnico deve poder enviar a notificação apenas após preencher todos os campos obrigatórios (título, descrição, data e hora da visita).  
+* Todos os campos obrigatórios devem ser validados antes do envio, exibindo mensagens de erro em caso de informações inválidas (ex.: data ou hora que não correspondem ao horário marcado para a visita).  
 
 Cenário: Técnico notifica o status da visita
 
-**Dado que** o técnico está visualizando uma visita agendada.  
-**Quando** ele seleciona a visita e insere a mensagem de status "Visita realizada com sucesso!"  
+**Dado que** o técnico está visualizando uma visita agendada,  
+**Quando** ele seleciona a visita e adiciona uma notificação a ela, inserindo o título "Central das Máquinas", a descrição "Visita realizada com sucesso!", a data "20/01/2025" e o horário "14:00",   
 **Então** o sistema deve notificar os envolvidos com a mensagem de status da visita.  
 
 ### US02 - Acessar histórico de equipamentos
@@ -72,9 +72,9 @@ Cenário: Técnico notifica o status da visita
 
 Critérios de Aceitação: 
 
-* O técnico deve ser capaz de visualizar o histórico completo de manutenção do equipamento selecionado.
-* O histórico deve incluir informações como data, descrição do problema e solução aplicada.
-* O técnico deve ser capaz de filtrar o histórico por tipo de equipamento ou data.
+* O técnico deve ser capaz de visualizar o histórico completo de manutenção do equipamento selecionado.  
+* O histórico deve incluir as seguintes informações: as datas das manutenções anteriores, o técnico que realizou a manutenção, a descrição do problema e solução aplicada.  
+* O técnico deve ser capaz de filtrar o histórico por tipo de equipamento ou data.  
 
 Cenário: Técnico acessa o histórico de equipamentos
 
@@ -88,14 +88,15 @@ Cenário: Técnico acessa o histórico de equipamentos
 
 Critérios de Aceitação: 
 
-* O guia técnico deve ser atualizado mensalmente para refletir as mudanças nos processos.
-* O técnico deve poder buscar informações específicas dentro do guia.
+* O técnico deve poder visualizar uma lista dos guias técnicos disponiveís.  
+* O técnico deve poder buscar informações específicas dentro do guia através de uma barra de pesquisa, na qual ele deve digitar o nome do guia técnico ou o nome de um equipamento.  
+* O sistema deve registrar um histórico dos guias técnicos acessados recentemente pelo técnico para facilitar consultas recorrentes.  
 
 Cenário: Técnico acessa o guia técnico
 
 **Dado que** que o técnico está na página do guia,  
 **Quando** ele seleciona o "Guia Técnico Linux 2024",  
-**Então** o sistema deve exibir um guia com procedimentos e normas técnicos do Linux e a versão do guia deve ser a de 2024.
+**Então** o sistema deve exibir um guia com procedimentos e normas técnicos do Linux e a versão do guia deve ser a de 2024.  
 
 ### US04 - Listar visitas a serem realizadas
 
@@ -103,15 +104,15 @@ Cenário: Técnico acessa o guia técnico
 
 Critérios de Aceitação: 
 
-* As visitas devem estar organizadas por data e prioridade.
-* O técnico deve poder visualizar detalhes de cada visita, incluindo informações do cliente e serviço.
-* O sistema não deve mostrar visitas que forão canceladas.
+* As visitas devem estar organizadas por data e prioridade.  
+* O técnico deve poder visualizar detalhes de cada visita, incluindo informações do cliente (nome e endereço) e serviço.  
+* O sistema não deve mostrar visitas que forão canceladas.  
 
 Cenário: Técnico lista visitas a serem realizadas
 
 **Dado que** o técnico está na página de visitas,  
 **Quando** ele acessa a lista de visitas agendadas do dia "21/01/2025" e escolhe a visita marcada às "8:00",  
-**Então** ele visualiza o nome do cliente que receberá a visita: "Maria Amanda", o serviço que deve ser feito: "Reparo no computador" e o endereço: "Via Norte, Rua Beija-flor, casa 10".
+**Então** ele visualiza o nome do cliente que receberá a visita: "Maria Amanda", o serviço que deve ser feito: "Reparo no computador" e o endereço: "Via Norte, Rua Beija-flor, casa 10".  
 
 ### US05 - Reportar equipamentos reparados
 
