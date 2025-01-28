@@ -120,9 +120,8 @@ Cenário: Técnico lista visitas a serem realizadas
 
 Critérios de Aceitação: 
 
-* O técnico deve ser capaz de reportar equipamentos reparados, incluindo a descrição do reparo.
-* O sistema deve registrar o status do equipamento após o reparo.
-* O sistema deve permitir que o técnico envie fotos ou outros anexos relacionados ao reparo.
+* O técnico deve ser capaz de reportar equipamentos reparados, incluindo a descrição do reparo e uma foto do equipamento.
+* O sistema deve atualizar o status do equipamento para "Reparado" após o reparo.
 
 Cenário : Técnico reporta equipamentos reparados
 
@@ -136,9 +135,9 @@ Cenário : Técnico reporta equipamentos reparados
 
 Critérios de Aceitação: 
 
-* O técnico deve poder gerar relatórios detalhados sobre os serviços realizados, incluindo manutenções e reparos.
-* Os relatórios devem incluir data, hora, descrição do serviço, equipamentos envolvidos e status.
-* O sistema deve permitir exportar os relatórios.
+* O técnico deve poder gerar relatório detalhado sobre o serviço realizado, incluindo manutenções e reparos.
+* Os relatórios devem incluir data, hora, localização do serviço, nome do cliente, descrição do serviço, equipamentos envolvidos e status.
+* O sistema deve permitir exportar o relatório em PDF.
 
 ### US07 - Visualizar feedback geral dos serviços 
 
@@ -148,17 +147,17 @@ Critérios de Aceitação:
 
 * A diretora de operações deve poder acessar todos os feedbacks recebidos sobre os serviços realizados.
 * Os feedbacks devem estar organizados por data e serviço.
-* A diretora deve poder filtrar feedbacks por tipo de serviço ou técnico.
+* A diretora deve poder filtrar feedbacks por tipo de serviço, data ou técnico.
 
-### US08 - Gerar dashboard de feedbacks
+### US08 - Acessar dashboard de feedbacks
 
->Eu, como diretora de operações, quero gerar dashboard de feedbacks para melhor visualizar as avaliações.
+>Eu, como diretora de operações, quero acessar o dashboard de feedbacks para melhor avaliação de desempenho dos serviços.
 
 Critérios de Aceitação: 
 
-* O sistema deve gerar um painel de controle que exiba as avaliações médias dos serviços.
-* O dashboard deve permitir a visualização de tendências de feedback ao longo do tempo.
-* A diretora deve ser capaz de filtrar os dados do dashboard por técnico, serviço ou período.
+* O dashboard deve estar acessível por meio de um botão no menu de feedbacks.
+* O dashboard deve carregar os dados de feedbacks automaticamente ao ser acessado, exibindo informações atualizadas.
+* A diretora deve poder aplicar filtros no dashboard para personalizar a exibição dos dados como tipo de serviço, técnico responsável e data de serviço.
 
 ### US09 - Solicitar feedback
 
@@ -167,7 +166,7 @@ Critérios de Aceitação:
 Critérios de Aceitação: 
 
 * A diretora de operações deve poder enviar uma solicitação de feedback para clientes após a conclusão de um serviço.
-* O sistema deve permitir personalizar a mensagem de solicitação de feedback.
+* O sistema deve permitir personalizar a mensagem de solicitação de feedback, podendo escolher o título da mensagem e o conteúdo, em texto ou imagem, dela.
 * O cliente deve receber a solicitação de feedback por e-mail ou notificação no sistema.
 
 ### US10 - Visualizar feedback de serviço
@@ -200,7 +199,7 @@ Critérios de Aceitação:
 
 ### US14 - Gerar relatório de serviço
 
->Eu, como diretora de operações, quero gerar relatórios dos serviços para mapear melhorias.
+>Eu, como diretora de operações, quero gerar relatório do serviço para mapear melhorias.
 
 ### US15 - Visualizar agendamentos
 
