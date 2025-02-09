@@ -42,7 +42,7 @@ export default function SimuladoDropdownAdm({
   const handleSelect = (simulado: string) => {
     setIsOpen(false);
     onSelect(simulado === "Todos" ? null : simulado);
-    setSearchTerm("");
+    setSearchTerm(simulado);
   };
 
   return (
@@ -75,11 +75,7 @@ export default function SimuladoDropdownAdm({
               filteredSimulados.map((simulado, index) => (
                 <li
                   key={index}
-                  className={`p-2 cursor-pointer hover:bg-gray-200 ${
-                    selectedSimulado === simulado || (simulado === "Todos" && selectedSimulado === null)
-                      ? "bg-teal-500 text-white font-bold"
-                      : ""
-                  }`}
+                  className="p-2 hover:bg-[#EFEFEF] cursor-pointer"
                   onClick={() => handleSelect(simulado)}
                 >
                   {simulado}

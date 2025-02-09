@@ -1,10 +1,10 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import AlunoDropdown from "@/components/alunoDD";
 import Header from "@/components/header";
 import { useCookies } from "react-cookie";
 import SimuladoDropdownAdm from "@/components/simuladosDDadm";
+import AlunoSimuladoDD from "@/components/alunosSimuladoDD";
 
 const mockSimulados: Record<string, Record<string, Record<string, boolean>>> = {
     "Simulado 1": {
@@ -105,8 +105,8 @@ export default function SimuladosAdmin() {
             <Header isadmin />
             <div className="max-w-6xl mx-auto p-4">
                 <div className="flex justify-center gap-4 mb-4">
-                    <AlunoDropdown selectedAluno={selectedAluno} onSelect={setSelectedAluno} />
-                    <SimuladoDropdownAdm simulados={simulados} selectedSimulado={selectedSimulado} onSelect={setSelectedSimulado} />
+                    <AlunoSimuladoDD selectedAluno={selectedAluno} onSelect={setSelectedAluno} />
+                    <SimuladoDropdownAdm simulados={mockSimulados} selectedSimulado={selectedSimulado} onSelect={setSelectedSimulado} />
                 </div>
 
                 {filteredResults && (

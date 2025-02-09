@@ -1,7 +1,7 @@
 "use client";
 
 import React, { FC, useState } from "react";
-import { Upload, X } from "lucide-react";
+import { Upload, X, AlertCircle } from "lucide-react";
 
 interface InputFileProps {
   label?: string;
@@ -12,6 +12,12 @@ interface InputFileProps {
 
 const InputFile: FC<InputFileProps> = ({ label, id, setGabarito, disabled = false }) => {
   const [fileName, setFileName] = useState<string>("");
+  const [errorMessage, setErrorMessage] = useState<string>("");
+
+  const showError = (message: string) => {
+    setErrorMessage(message);
+    setTimeout(() => setErrorMessage(""), 3000);
+  };
 
   const handleFileChange = async (event: React.ChangeEvent<HTMLInputElement>) => {
     if (disabled || !event.target.files || event.target.files.length === 0) return;
@@ -32,7 +38,7 @@ const InputFile: FC<InputFileProps> = ({ label, id, setGabarito, disabled = fals
         .filter(Boolean);
 
       if (linhas.length < 2) {
-        alert("Arquivo inválido: deve conter pelo menos uma questão e um gabarito.");
+        showError("Arquivo inválido: deve conter pelo menos uma questão e um gabarito.");
         resetFileInput();
         return;
       }
@@ -46,7 +52,7 @@ const InputFile: FC<InputFileProps> = ({ label, id, setGabarito, disabled = fals
         .map((coluna) => coluna.trim().toLowerCase());
 
       if (colunas.length !== 2 || colunas[0] !== "questao" || colunas[1] !== "gabarito") {
-        alert("Arquivo inválido: a primeira linha deve ter 'questao' e 'gabarito'.");
+        showError("Arquivo inválido: a primeira linha deve ter 'questao' e 'gabarito'.");
         resetFileInput();
         return;
       }
@@ -57,7 +63,7 @@ const InputFile: FC<InputFileProps> = ({ label, id, setGabarito, disabled = fals
         const partes = linhas[i].split(separadorDetectado).map((p) => p.trim());
 
         if (partes.length !== 2) {
-          alert(`Erro na linha ${i + 1}: A linha deve conter exatamente 2 colunas.`);
+          showError(`Erro na linha ${i + 1}: A linha deve conter exatamente 2 colunas.`);
           resetFileInput();
           return;
         }
@@ -65,13 +71,13 @@ const InputFile: FC<InputFileProps> = ({ label, id, setGabarito, disabled = fals
         const [questao, resposta] = partes;
 
         if (!questao || !resposta) {
-          alert(`Erro na linha ${i + 1}: Questão e gabarito não podem estar vazios.`);
+          showError(`Erro na linha ${i + 1}: Questão e gabarito não podem estar vazios.`);
           resetFileInput();
           return;
         }
 
         if (resposta.length !== 1) {
-          alert(`Erro na linha ${i + 1}: A resposta "${resposta}" deve ter apenas 1 caractere.`);
+          showError(`Erro na linha ${i + 1}: A resposta "${resposta}" deve ter apenas 1 caractere.`);
           resetFileInput();
           return;
         }
@@ -101,50 +107,58 @@ const InputFile: FC<InputFileProps> = ({ label, id, setGabarito, disabled = fals
   };
 
   return (
-    <label
-      htmlFor={id}
-      className={`flex flex-col items-center w-60 mx-auto cursor-pointer ${
-        disabled ? "opacity-50 cursor-not-allowed" : ""
-      }`}
-    >
-      <div
-        className={`block w-full text-center text-lg font-medium text-white px-4 py-2 rounded-t-lg ${
-          disabled ? "bg-gray-500" : "bg-teal-600"
+    <div className="relative w-60 mx-auto">
+      {errorMessage && (
+        <div className="absolute top-[-50px] left-0 right-0 bg-red-500 text-white text-sm p-2 rounded shadow-lg flex items-center">
+          <AlertCircle className="mr-2" size={18} />
+          {errorMessage}
+        </div>
+      )}
+      <label
+        htmlFor={id}
+        className={`flex flex-col items-center cursor-pointer ${
+          disabled ? "opacity-50 cursor-not-allowed" : ""
         }`}
       >
-        {label || "Faça o upload do gabarito"}
-      </div>
-      <div
-        className={`flex flex-col items-center justify-center w-full h-32 rounded-b-lg relative ${
-          disabled ? "bg-gray-300" : "bg-[#D9D9D9] hover:bg-gray-400"
-        }`}
-      >
-        {fileName ? (
-          <div className="flex flex-col items-center">
-            <span className="text-black text-sm text-center px-2">{fileName}</span>
-            {!disabled && (
-              <button
-                type="button"
-                className="absolute bottom-2 flex items-center justify-center bg-transparent text-white hover:text-gray-700"
-                onClick={handleCancel}
-              >
-                <X size={24} />
-              </button>
-            )}
-          </div>
-        ) : (
-          <Upload size={60} color={disabled ? "#B0B0B0" : "#9E9E9E"} />
-        )}
-      </div>
-      <input
-        className="hidden"
-        id={id}
-        type="file"
-        accept=".csv"
-        onChange={handleFileChange}
-        disabled={disabled}
-      />
-    </label>
+        <div
+          className={`block w-full text-center text-lg font-medium text-white px-4 py-2 rounded-t-lg ${
+            disabled ? "bg-gray-500" : "bg-teal-600"
+          }`}
+        >
+          {label || "Faça o upload do gabarito"}
+        </div>
+        <div
+          className={`flex flex-col items-center justify-center w-full h-32 rounded-b-lg relative ${
+            disabled ? "bg-gray-300" : "bg-[#D9D9D9] hover:bg-gray-400"
+          }`}
+        >
+          {fileName ? (
+            <div className="flex flex-col items-center">
+              <span className="text-black text-sm text-center px-2">{fileName}</span>
+              {!disabled && (
+                <button
+                  type="button"
+                  className="absolute bottom-2 flex items-center justify-center bg-transparent text-white hover:text-gray-700"
+                  onClick={handleCancel}
+                >
+                  <X size={24} />
+                </button>
+              )}
+            </div>
+          ) : (
+            <Upload size={60} color={disabled ? "#B0B0B0" : "#9E9E9E"} />
+          )}
+        </div>
+        <input
+          className="hidden"
+          id={id}
+          type="file"
+          accept=".csv"
+          onChange={handleFileChange}
+          disabled={disabled}
+        />
+      </label>
+    </div>
   );
 };
 
