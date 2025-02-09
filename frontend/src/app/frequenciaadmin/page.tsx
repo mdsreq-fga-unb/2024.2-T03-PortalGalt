@@ -6,66 +6,11 @@ import PeriodoDropdown from "@/components/periodoDD";
 import DataFrequenciaDropdown from "@/components/datafrequenciaDD";
 import cookie, { useCookies } from "react-cookie";
 
-const mockFrequenciaAluno: Record<
-  string,
-  Record<string, { totalPresenca: string; frequencias: [string[], number[]] }>
-> = {
-  "Lucas Almeida": {
-    Diurno: {
-      totalPresenca: "90%",
-      frequencias: [
-        ["13/01", "14/01", "15/01", "16/01", "17/01"],
-        [5, 3, 0, 5, 5],
-      ],
-    },
-    Noturno: {
-      totalPresenca: "85%",
-      frequencias: [
-        ["18/01", "19/01", "20/01", "21/01", "22/01"],
-        [4, 2, 5, 3, 5],
-      ],
-    },
-  },
-};
-
-const mockFrequenciaData: Record<string, Record<string, { nome: string; presenca: number }[]>> = {
-  "04/02/2025": {
-    Diurno: [
-      { nome: "Lucas Almeida", presenca: 5 },
-      { nome: "Ana Beatriz Santos", presenca: 5 },
-      { nome: "Rafael Costa", presenca: 5 },
-      { nome: "Mariana Oliveira", presenca: 4 },
-      { nome: "Pedro Henrique", presenca: 5 },
-      { nome: "Gabriela Souza", presenca: 5 },
-      { nome: "João Pedro", presenca: 5 },
-      { nome: "Isabella Ferreira", presenca: 5 },
-      { nome: "Mateus Martins", presenca: 0 },
-      { nome: "Larissa Rocha", presenca: 5 },
-      { nome: "Thiago Rodrigues", presenca: 5 },
-      { nome: "Amanda Barros", presenca: 5 },
-      { nome: "Lucas Almeida", presenca: 5 },
-      { nome: "Ana Beatriz Santos", presenca: 5 },
-      { nome: "Rafael Costa", presenca: 5 },
-      { nome: "Mariana Oliveira", presenca: 4 },
-      { nome: "Pedro Henrique", presenca: 5 },
-      { nome: "Gabriela Souza", presenca: 5 },
-      { nome: "João Pedro", presenca: 5 },
-      { nome: "Isabella Ferreira", presenca: 5 },
-      { nome: "Mateus Martins", presenca: 0 },
-      { nome: "Larissa Rocha", presenca: 5 },
-      { nome: "Thiago Rodrigues", presenca: 5 },
-      { nome: "Amanda Barros", presenca: 5 },
-    ],
-    Noturno: [
-      { nome: "Pedro Henrique", presenca: 5 },
-      { nome: "Gabriela Souza", presenca: 4 },
-      { nome: "João Pedro", presenca: 5 },
-    ],
-  },
-};
 
 export default function FrequenciaAdmin() {
   const [selectedAluno, setSelectedAluno] = useState<string | null>(null);
+  const [frequencia, setFrequencia] = useState<
+  Record<string, { nome: string; presenca: number }[]>>({});
   const [selectedData, setSelectedData] = useState<string | null>(null);
   const [periodoSelecionado, setPeriodoSelecionado] = useState<string>("Diurno");
   const [cookie, setCookie] = useCookies(["token_auth"]);
@@ -90,19 +35,15 @@ export default function FrequenciaAdmin() {
 
 
   useEffect(() => {
-    if (selectedAluno || selectedData) {
-      const requestOptions = {
+    const requestOptions = {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
           'Authorization': `Token ${cookie.token_auth}`, // Corrigido para acessar o valor correto do cookie
         },
       };
-  
-      // Construção da URL dinamicamente
-  
-    //   fetch(`http://localhost:8000/frequenciaAPI/getFrequenciaTurma/${periodoSelecionado}/${selectedData}`, requestOptions)
-    fetch(`http://localhost:8000/frequenciaAPI/getFrequenciaTurma/diurno2025/2025-01-01`, requestOptions)    
+    if (selectedData) {
+      fetch(`http://localhost:8000/frequenciaAPI/getFrequenciaTurma/${periodoSelecionado}/${selectedData.replaceAll("/", '-')}/`, requestOptions)
     .then(response => {
           if (!response.ok) {
             throw new Error("Erro na requisição");
@@ -110,15 +51,45 @@ export default function FrequenciaAdmin() {
           return response.json();
         })
         .then(data => {
-          console.log("Dados recebidos:", data);
-          
-          // Aqui você pode definir o estado para exibir os dados retornados
+          console.log("Dados recebidos:", data["presenca"]);
+          setFrequencia(data["presenca"])
+        })
+        .catch(error => {
+          console.error("Erro ao buscar frequência:", error);
+        });
+    } if (selectedAluno){
+        fetch(`http://localhost:8000/frequenciaAPI/getFrequencia/${selectedAluno}`, requestOptions)    
+    .then(response => {
+          if (!response.ok) {
+            throw new Error("Erro na requisição");
+          }
+          return response.json();
+        })
+        .then(data => {
+          console.log(data["presenca"])
+          setFrequencia(data["presenca"])
         })
         .catch(error => {
           console.error("Erro ao buscar frequência:", error);
         });
     }
   }, [selectedAluno, selectedData, periodoSelecionado]); // Atualiza sempre que um desses valores mudar
+
+
+function calculaPresenca(selectedAluno: string): number{
+  let presencas = 0
+  let dias = 0;
+
+  {Object.entries(frequencia).map(([data, alunos]) =>{
+      const aluno = alunos.find((a) => a.nome === selectedAluno);
+
+      if(aluno){
+        presencas += aluno.presenca;
+        dias += 5
+      }
+  })
+  return ((presencas*100)/dias);
+}}
 
   return (
     <div className="min-h-screen bg-gray-100">
@@ -130,35 +101,37 @@ export default function FrequenciaAdmin() {
           <DataFrequenciaDropdown selectedData={selectedData} onSelect={setSelectedData} />
         </div>
 
-        {periodoSelecionado && selectedAluno && mockFrequenciaAluno[selectedAluno]?.[periodoSelecionado] && (
+        {selectedAluno && frequencia && (
           <div className="bg-white p-4 rounded-lg shadow-md">
             <h2 className="text-xl text-black font-semibold">Aluno: {selectedAluno}</h2>
             <p className="font-bold text-black">
-              Total de Presença: {mockFrequenciaAluno[selectedAluno][periodoSelecionado].totalPresenca}
+            Total de Presenca : {calculaPresenca(selectedAluno).toFixed(0)}%
             </p>
             <div className="grid grid-cols-5 gap-2 mt-4">
-              {mockFrequenciaAluno[selectedAluno]?.[periodoSelecionado]?.frequencias?.[0]?.map((data, index) => (
+            {Object.entries(frequencia).map(([data, alunos]) =>
+  alunos.map((aluno, index) => (
                 <div key={index} className="text-center text-black font-medium bg-gray-200 p-2 rounded-lg">
-                  <p className="font-semibold">{data}</p>
-                  <p className="text-lg font-bold">{mockFrequenciaAluno[selectedAluno][periodoSelecionado].frequencias[1][index]}</p>
+                <p className="font-semibold">{data}</p>
+                <p className="text-lg font-bold">{aluno.presenca}</p>
                 </div>
-              ))}
+            ))
+        )}
             </div>
           </div>
         )}
 
-        {periodoSelecionado && selectedData && mockFrequenciaData[selectedData]?.[periodoSelecionado] && (
+        {periodoSelecionado && selectedData && frequencia[selectedData] && (
           <div className="bg-white p-4 rounded-lg shadow-md max-w-2xl mx-auto">
             <h2 className="text-xl text-black font-semibold">Data: {selectedData}</h2>
             <div className="mt-4">
               <p className="font-bold text-black">
-                  Alunos Presentes: {mockFrequenciaData[selectedData]?.[periodoSelecionado]?.filter((a) => a.presenca > 0).length ?? 0}
+                  Alunos Presentes: {frequencia[selectedData]?.filter((a) => a.presenca > 0).length ?? 0}
               </p>
               <p className="font-bold text-black">
-                  Total de Faltas: {mockFrequenciaData[selectedData]?.[periodoSelecionado]?.filter((a) => a.presenca === 0).length ?? 0}
+                  Total de Faltas: {frequencia[selectedData]?.filter((a) => a.presenca === 0).length ?? 0}
               </p>
               <div className="grid text-black grid-cols-1 pt-4 gap-4">
-                {mockFrequenciaData[selectedData][periodoSelecionado].map((aluno, index) => (
+                {frequencia[selectedData].map((aluno, index) => (
                   <div key={index} className="flex text-black justify-between p-2 bg-gray-200 rounded-lg">
                     <span>{aluno.nome}</span>
                     <span className="font-bold">{aluno.presenca}</span>

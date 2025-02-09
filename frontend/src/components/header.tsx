@@ -13,9 +13,9 @@ export default function Header(boolean: isadmin) {
   const handleNavLinkClick = () => {
     setNavBar(false);
   };
-
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
+  // Set the active path based on activePath
+   useEffect(() => {
+    if (typeof activePath !== 'undefined') {
       setActivePath(activePath);
     }
   }, []);

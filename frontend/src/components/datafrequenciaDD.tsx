@@ -2,21 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import { FiSearch } from "react-icons/fi";
-
-// Mock de datas
-const datas = [
-  "04/02/2025",
-  "15/03/2025",
-  "22/04/2025",
-  "10/05/2025",
-  "30/06/2025",
-  "12/07/2025",
-  "25/08/2025",
-  "08/09/2025",
-  "19/10/2025",
-  "05/11/2025",
-  "14/12/2025",
-];
+import cookie, { useCookies } from "react-cookie";
 
 interface DataFrequenciaDropdownProps {
   selectedData: string | null;
@@ -26,8 +12,31 @@ interface DataFrequenciaDropdownProps {
 export default function DataFrequenciaDropdown({ selectedData, onSelect }: DataFrequenciaDropdownProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
+  const [cookie, setCookie] = useCookies(["token_auth"]);
 
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const [datas, setDatas] = useState<string[]>([])
+
+    useEffect(() => {
+        const requestOptions = {
+            method: 'GET',
+            headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Token ${cookie.token_auth}`
+            }
+        };
+      fetch("http://localhost:8000/frequenciaAPI/getAlldates/", requestOptions).then(
+        response => {
+          if (!response.ok) {
+            throw new Error('Network not ok')
+          }
+          return response.json()
+        }
+      ).then(data => {
+            setDatas(data["lista_datas"])
+            console.log(data["lista_datas"])
+      })    
+    }, [cookie.token_auth]);
 
   // Atualiza o campo de busca quando selectedData muda
   useEffect(() => {

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Header from "@/components/header";
-import { useCookies } from "react-cookie";
+import cookie, { useCookies } from "react-cookie";
 import SimuladoDropdownAdm from "@/components/simuladosDDadm";
 import AlunoSimuladoDD from "@/components/alunosSimuladoDD";
 
@@ -22,49 +22,45 @@ const mockSimulados: Record<string, Record<string, Record<string, boolean>>> = {
 export default function SimuladosAdmin() {
     const [selectedAluno, setSelectedAluno] = useState<string | null>(null);
     const [selectedSimulado, setSelectedSimulado] = useState<string | null>(null);
-    const [cookie] = useCookies(["token_auth"]);
+    const [simulados, setSimulados] = useState(mockSimulados);
+    const [cookie, setCookie] = useCookies(["token_auth"]);
 
     useEffect(() => {
-        if (selectedAluno || selectedSimulado) {
-            const requestOptions = {
-                method: 'GET',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Token ${cookie.token_auth}`,
-                },
-            };
-            fetch(`http://localhost:8000/frequenciaAPI/getFrequenciaTurma/diurno2025/2025-01-01`, requestOptions)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error("Erro na requisição");
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    console.log("Dados recebidos:", data);
-                })
-                .catch(error => {
-                    console.error("Erro ao buscar simulados:", error);
+        const fetchSimulados = async () => {
+            try {
+                const response = await fetch("http://localhost:8000/simulado/getListSimulados/", {
+                    method: "GET",
+                    headers: {
+                        "Authorization": `Token ${cookie.token_auth}`,
+                    },
                 });
-        }
-    }, [selectedAluno, selectedSimulado]);
 
-    // Filtro para mostrar apenas os dados certos conforme a seleção
+                if (!response.ok) throw new Error("Erro na requisição");
+                const data = await response.json();
+                setSimulados(data.lista_simulados);
+            } catch (error) {
+                console.error("Erro ao buscar simulados:", error);
+            }
+        };
+
+        fetchSimulados();
+    }, []);
+
     const getFilteredResults = () => {
         if (selectedSimulado && selectedAluno) {
-            return mockSimulados[selectedSimulado]?.[selectedAluno] || null;
+            return simulados[selectedSimulado]?.[selectedAluno] || null;
         }
         if (selectedSimulado) {
-            return mockSimulados[selectedSimulado];
+            return simulados[selectedSimulado];
         }
         if (selectedAluno) {
             const alunoData: Record<string, Record<string, boolean>> = {};
-            for (const simulado in mockSimulados) {
-                if (mockSimulados[simulado][selectedAluno]) {
-                    alunoData[simulado] = mockSimulados[simulado][selectedAluno];
+            for (const simulado in simulados) {
+                if (simulados[simulado][selectedAluno]) {
+                    alunoData[simulado] = simulados[simulado][selectedAluno];
                 }
             }
-            return alunoData;
+            return Object.keys(alunoData).length > 0 ? alunoData : null;
         }
         return null;
     };
@@ -80,18 +76,22 @@ export default function SimuladosAdmin() {
             <div className="max-w-6xl mx-auto p-4">
                 <div className="flex justify-center gap-4 mb-4">
                     <AlunoSimuladoDD selectedAluno={selectedAluno} onSelect={setSelectedAluno} />
-                    <SimuladoDropdownAdm simulados={mockSimulados} selectedSimulado={selectedSimulado} onSelect={setSelectedSimulado} />
+                    <SimuladoDropdownAdm simulados={simulados} selectedSimulado={selectedSimulado} onSelect={setSelectedSimulado} />
                 </div>
 
-                {filteredResults && (
+                {filteredResults ? (
                     <div className="bg-white p-4 rounded-lg shadow-md">
                         {selectedSimulado && selectedAluno ? (
                             <>
                                 <h2 className="text-xl text-black font-semibold">
                                     Simulado: {selectedSimulado} - Aluno: {selectedAluno}
                                 </h2>
-                                <p className="font-bold text-black">Nota: {calculaNota(filteredResults)} / {totalQuestoes(filteredResults)}</p>
-                                <p className="font-bold text-black">Porcentagem de Acerto: {((calculaNota(filteredResults) / totalQuestoes(filteredResults)) * 100).toFixed(2)}%</p>
+                                <p className="font-bold text-black">
+                                    Nota: {calculaNota(filteredResults as Record<string, boolean>)} / {totalQuestoes(filteredResults as Record<string, boolean>)}
+                                </p>
+                                <p className="font-bold text-black">
+                                    Porcentagem de Acerto: {((calculaNota(filteredResults as Record<string, boolean>) / totalQuestoes(filteredResults as Record <string, boolean>)) * 100).toFixed(2)}%
+                                </p>
                             </>
                         ) : selectedSimulado ? (
                             <>
@@ -99,22 +99,36 @@ export default function SimuladosAdmin() {
                                 {Object.entries(filteredResults).map(([aluno, respostas]) => (
                                     <div key={aluno} className="mt-4">
                                         <p className="font-bold text-black">{aluno}:</p>
-                                        <p className="font-bold text-black">Nota: {calculaNota(respostas)} / {totalQuestoes(respostas)}</p>
-                                        <p className="font-bold text-black">Porcentagem de Acerto: {((calculaNota(respostas) / totalQuestoes(respostas)) * 100).toFixed(2)}%</p>
+                                        <p className="font-bold text-black">
+                                            Nota: {calculaNota(respostas)} / {totalQuestoes(respostas)}
+                                        </p>
+                                        <p className="font-bold text-black">
+                                            Porcentagem de Acerto: {((calculaNota(respostas) / totalQuestoes(respostas)) * 100).toFixed(2)}%
+                                        </p>
+                                    </div>
+                                ))}
+                            </>
+                        ) : selectedAluno ? (
+                            <>
+                                <h2 className="text-xl text-black font-semibold">Aluno: {selectedAluno}</h2>
+                                {Object.entries(filteredResults).map(([simulado, respostas]) => (
+                                    <div key={simulado} className="mt-4">
+                                        <p className="font-bold text-black">Simulado: {simulado}</p>
+                                        <p className="font-bold text-black">
+                                            Nota: {calculaNota(respostas)} / {totalQuestoes(respostas)}
+                                        </p>
+                                        <p className="font-bold text-black">
+                                            Porcentagem de Acerto: {((calculaNota(respostas) / totalQuestoes(respostas)) * 100).toFixed(2)}%
+                                        </p>
                                     </div>
                                 ))}
                             </>
                         ) : (
-                            Object.entries(filteredResults).map(([simulado, respostas]) => (
-                                <div key={simulado} className="mt-4">
-                                    <h2 className="text-xl text-black font-semibold">Simulado: {simulado}</h2>
-                                    <p className="font-bold text-black">Aluno :</p>
-                                    <p className="font-bold text-black">Nota: </p>
-                                    <p className="font-bold text-black">Porcentagem de Acerto:</p>
-                                </div>
-                            ))
+                            <p className="text-gray-600">Selecione um simulado ou aluno para visualizar os resultados.</p>
                         )}
                     </div>
+                ) : (
+                    <p className="text-gray-600 text-center">Nenhum dado encontrado.</p>
                 )}
             </div>
         </div>
