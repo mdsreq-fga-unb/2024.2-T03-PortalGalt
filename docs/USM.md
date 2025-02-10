@@ -1,4 +1,4 @@
-# Estudo de Caso "EduConnct"
+# Estudo de Caso "EduConnect"
 
 ## Contexto:
 
