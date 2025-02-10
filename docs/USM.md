@@ -216,7 +216,7 @@ US25 - Acessar relatórios detalhados
 >Eu, como responsável, quero acessar relatórios detalhados para visualizar o que pode ser melhorado no projeto.  
 
 US26 - Atualizar informações de cadastro
->Eu, como responsável, quero gerenciar informações de cadastro para atualizar informações se necessário.  
+>Eu, como responsável, quero editar os dados cadastrais dos participantes, garantindo que as informações estejam sempre corretas e atualizadas no sistema.
 
 US27 - Consultar calendários e prazos
 >Eu, como responsável, quero consultar o calendário de atividades e prazos para me manter informado sobre as atividades.  
@@ -243,8 +243,8 @@ US33 - Participar de reuniões de feedback
 US34 - Analisar relatórios de impacto
 >Eu, como especialista externo, quero analisar relatórios sobre o impacto de minhas contribuições nos projetos para melhorar meu trabalho.
 
-US35 - Ajustar apresentações e materiais
->Eu, como especialista externo, quero ajustar apresentações e materiais com base no feedback recebido para melhorar meu trabalho.
+US35 - Modificar apresentações e materiais
+>Eu, como especialista externo, quero modificar as apresentações e materiais com base nas sugestões e ajustes sugeridos, para melhorar a qualidade do trabalho.
 
 US36 - Participar de reuniões de alinhamento
 >Eu, como especialista externo, quero participar de reuniões para definir expectativas e responsabilidades, para estar melhor informado sobre meu trabalho.
@@ -281,57 +281,64 @@ US45 - Avaliar projetos e entregar feedback
 US46 - Comunicar com coordenadores e professores
 >Eu, como professor participante, quero me comunicar com coordenadores e professores para que eu possa alinhar objetivos e resolver problemas de forma colaborativa.
 
-
-
 ### Professor Coordenador
-US47 - Criar e editar documentos
->Eu, como professor coordenador, quero criar e editar documentos para gerenciar conteúdos do projeto.
 
-US48 - Enviar e receber mensagens
->Eu, como professor coordenador, quero enviar e receber mensagens para manter comunicação com a equipe e participantes.
+**US47 - Criar documentos**  
+> Eu, como professor coordenador, quero criar documentos para organizar e gerenciar os conteúdos do projeto, de modo que eu possa compartilhar informações de maneira eficiente com a equipe.
 
-US49 - Avaliar resultados dos alunos
->Eu, como professor coordenador, quero avaliar os resultados dos alunos para acompanhar seu desempenho e progresso.
+**US48 - Editar documentos**  
+> Eu, como professor coordenador, quero editar documentos existentes para atualizar ou modificar os conteúdos do projeto, garantindo que as informações estejam sempre atualizadas e precisas.
 
-US50 - Organizar documentos
->Eu, como professor coordenador, quero organizar documentos para facilitar o acesso e consulta das informações do projeto.
+**US49 - Enviar mensagens**  
+> Eu, como professor coordenador, quero enviar mensagens para me comunicar com a equipe e os participantes, compartilhando informações ou solicitando ações quando necessário.
 
-US51 - Visualizar atividades em aplicação
->Eu, como professor coordenador, quero visualizar atividades em aplicação para monitorar o andamento do projeto.
+**US50 - Receber mensagens**  
+> Eu, como professor coordenador, quero receber mensagens para acompanhar as comunicações da equipe e dos participantes, permitindo que eu esteja sempre informado sobre o andamento do projeto.
 
-US52 - Definir critérios de aplicação
->Eu, como professor coordenador, quero definir critérios de aplicação para garantir que as atividades atendam aos objetivos pedagógicos.
+**US51 - Avaliar resultados dos alunos**  
+> Eu, como professor coordenador, quero avaliar os resultados dos alunos para acompanhar seu desempenho e progresso.
 
-US53 - Criar calendários de atividades
->Eu, como professor coordenador, quero criar calendários de atividades para organizar o cronograma do projeto.
+**US52 - Organizar documentos**  
+> Eu, como professor coordenador, quero organizar documentos para facilitar o acesso e consulta das informações do projeto.
 
-US54 - Designar atividades para professores
->Eu, como professor coordenador, quero designar atividades para professores participantes para distribuir tarefas de forma eficiente.
+**US53 - Visualizar atividades em aplicação**  
+> Eu, como professor coordenador, quero visualizar atividades em aplicação para monitorar o andamento do projeto.
 
-US55 - Definir papeis de membros das equipes
->Eu, como professor coordenador, quero definir papeis de membros das equipes para estruturar melhor as responsabilidades.
+**US54 - Definir critérios de aplicação**  
+> Eu, como professor coordenador, quero definir critérios de aplicação para garantir que as atividades atendam aos objetivos pedagógicos.
 
-US56 - Realizar reuniões com professores
->Eu, como professor coordenador, quero realizar reuniões com professores para alinhar estratégias e metas do projeto.
+**US55 - Criar calendários de atividades**  
+> Eu, como professor coordenador, quero criar calendários de atividades para organizar o cronograma do projeto.
 
-US57 - Enviar mensagens aos pais
->Eu, como professor coordenador, quero enviar mensagens para os pais dos alunos para mantê-los informados sobre o progresso.
+**US56 - Designar atividades para professores**  
+> Eu, como professor coordenador, quero designar atividades para professores participantes para distribuir tarefas de forma eficiente.
 
-US58 - Gerir recursos e materiais
->Eu, como professor coordenador, quero gerir recursos e materiais para garantir que todos tenham o suporte necessário.
+**US57 - Definir papéis de membros das equipes**  
+> Eu, como professor coordenador, quero definir papéis de membros das equipes para estruturar melhor as responsabilidades.
+
+**US58 - Realizar reuniões com professores**  
+> Eu, como professor coordenador, quero realizar reuniões com professores para alinhar estratégias e metas do projeto.
+
+**US59 - Enviar mensagens aos pais**  
+> Eu, como professor coordenador, quero enviar mensagens para os pais dos alunos para mantê-los informados sobre o progresso.
+
+**US60 - Gerir recursos e materiais**  
+> Eu, como professor coordenador, quero gerir recursos e materiais para garantir que todos tenham o suporte necessário.
 
 ### Coordenador Pedagógico
-US59 - Definir prazos e etapas dos projetos
->Eu, como coordenador pedagógico, quero definir prazos e etapas claras para a execução dos projetos para garantir que todas as atividades sejam realizadas dentro do cronograma previsto.
 
-US60 - Analisar objetivos e metodologias dos projetos
->Eu, como coordenador pedagógico, quero analisar os objetivos e metodologias dos projetos para assegurar que estejam alinhados aos objetivos educacionais da instituição.
+**US61 - Definir prazos e etapas dos projetos**  
+> Eu, como coordenador pedagógico, quero definir prazos e etapas claras para a execução dos projetos para garantir que todas as atividades sejam realizadas dentro do cronograma previsto.
 
-US61 - Orientar equipes sobre ajustes nos projetos
->Eu, como coordenador pedagógico, quero orientar as equipes sobre os ajustes necessários nos projetos para que os objetivos educacionais sejam alcançados de forma eficiente.
+**US62 - Analisar objetivos e metodologias dos projetos**  
+> Eu, como coordenador pedagógico, quero analisar os objetivos e metodologias dos projetos para assegurar que estejam alinhados aos objetivos educacionais da instituição.
 
-US62 - Monitorar progresso de múltiplos projetos
->Eu, como coordenador pedagógico, quero monitorar o progresso de múltiplos projetos simultaneamente para manter uma visão geral e garantir que o programa educacional como um todo esteja bem encaminhado.
+**US63 - Orientar equipes sobre ajustes nos projetos**  
+> Eu, como coordenador pedagógico, quero orientar as equipes sobre os ajustes necessários nos projetos para que os objetivos educacionais sejam alcançados de forma eficiente.
+
+**US64 - Monitorar progresso de múltiplos projetos**  
+> Eu, como coordenador pedagógico, quero monitorar o progresso de múltiplos projetos simultaneamente para manter uma visão geral e garantir que o programa educacional como um todo esteja bem encaminhado.
+
 
 *Histórico de Revisão*
 
