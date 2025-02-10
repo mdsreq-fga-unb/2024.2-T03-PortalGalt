@@ -6,7 +6,7 @@
 
 * Ciclo de Vida: Incremental e Iterativo
 
-* Processo: ScrumXP
+* Processo: OpenUP
 
 ## Quadro Comparativo
 
