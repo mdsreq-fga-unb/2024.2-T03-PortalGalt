@@ -27,7 +27,7 @@ Atividade realizada no MIRO, acesse [por aqui.](https://miro.com/welcomeonboard/
 ## Caminhos:
 
 ### Professor Coordenador
-![alt text](images/usm/profcoodenador.png)
+![alt text](images/usm/profcoordenadorUSM.png)
 ### Professor Participante
 ![alt text](images/usm/propartUSM.png)
 ### alunos
