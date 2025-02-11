@@ -1,0 +1,1324 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://mdsreq-fga-unb.github.io/2024.2-T03-PortalGalt/casodeuso/">
+      
+      
+        <link rel="prev" href="../USM/">
+      
+      
+        <link rel="next" href="../licoesaprendidas/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.3">
+    
+    
+      
+        <title>Casos de Uso - Portal Galt</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.d7758b05.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="black">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#estudo-de-caso-connectcare" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href=".." title="Portal Galt" class="md-header__button md-logo" aria-label="Portal Galt" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Portal Galt
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Casos de Uso
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="black"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../introducao/" class="md-tabs__link">
+          
+  
+  Visão de Produto e Projetos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../requisitos/" class="md-tabs__link">
+          
+  
+  Backlog
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../PBB/" class="md-tabs__link">
+          
+  
+  Estudos de Caso
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../licoesaprendidas/" class="md-tabs__link">
+        
+  
+    
+  
+  Lições Aprendidas
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../videos_apresentacao/" class="md-tabs__link">
+        
+  
+    
+  
+  Videos de Apresetanção
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Portal Galt" class="md-nav__button md-logo" aria-label="Portal Galt" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Portal Galt
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Visão de Produto e Projetos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Visão de Produto e Projetos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introducao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cenário Atual do Cliente e Negócio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../solucao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Solução Proposta
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../estrategias/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Estratégias de Engenharia de Software
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cronograma/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cronograma e Entregas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../interacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Interação entre Equipe e Cliente
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../engderequisitos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Engenharia de Requisitos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Backlog
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Backlog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../requisitos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Requisitos de Software
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backlog do Produto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Estudos de Caso
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Estudos de Caso
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PBB/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Product Backlog Building
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../USM/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    User Story Mapping
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Casos de Uso
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Casos de Uso
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#contexto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contexto:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-de-caso-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrama de Caso de Uso:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../licoesaprendidas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lições Aprendidas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../videos_apresentacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Videos de Apresetanção
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="estudo-de-caso-connectcare">Estudo de Caso "ConnectCare"</h1>
+<h2 id="contexto">Contexto:</h2>
+<p>Em uma comunidade remota chamada Vila Esperança, onde o acesso a serviços de saúde é
+limitado, um grupo de desenvolvedores e ativistas sociais se reuniu para criar o "ConnectCare".
+A plataforma foi projetada para superar barreiras, como a falta de transporte e informações,
+facilitando o acesso dos moradores a cuidados médicos.
+O ambiente da Vila Esperança é desafiador: infraestrutura básica limitada, baixa penetração de
+internet e um número reduzido de profissionais de saúde. Apesar disso, a comunidade tem uma
+forte rede social e um espírito colaborativo, que serviram como base para o desenvolvimento do
+"ConnectCare". </p>
+<blockquote>
+<p>Baseado em "Exercício de Construção de Caso de Uso" passado em sala de aula pelo Prof. Dr. George Marsicano</p>
+</blockquote>
+<h2 id="diagrama-de-caso-de-uso">Diagrama de Caso de Uso:</h2>
+<p><img alt="image" src="https://github.com/user-attachments/assets/c5625191-70d9-4022-b423-084a918b4bbd" /></p>
+<h1 id="especificacao-caso-de-uso">Especificação Caso de Uso</h1>
+<h2 id="1-breve-descricao">1. Breve Descrição</h2>
+<p>A funcionalidade "Realizar Agendamento" no modelo de Diagrama de Casos de Uso para o ConnectCare deve envolver os principais atores e interações do sistema relacionadas ao processo de agendamento de consultas ou exames.</p>
+<h2 id="2-atores">2. Atores</h2>
+<ul>
+<li><strong>Paciente</strong>: Usuário que deseja marcar uma consulta ou exame.</li>
+<li><strong>Profissional de Saúde</strong>: Médico, enfermeiro ou técnico que realizará o atendimento.</li>
+<li><strong>Sistema ConnectCare</strong>: Plataforma que processa as solicitações e gerencia os agendamentos.</li>
+</ul>
+<h2 id="3-condicoes-previas">3. Condições Prévias</h2>
+<ul>
+<li>3.1 O paciente deve ter uma conta ativa no ConnectCare.</li>
+<li>3.2 O sistema deve ter profissionais disponíveis para agendamento.</li>
+<li>3.3 O sistema precisa ter horários cadastrados e disponíveis para consultas.</li>
+<li>3.4 O paciente deve poder escolher entre os serviços disponíveis.</li>
+<li>3.5 Deve haver pelo menos uma unidade de saúde ativa no sistema.</li>
+<li>3.6 O sistema pode impedir que o paciente marque consultas que coincidam com outras já agendadas.</li>
+</ul>
+<h2 id="4-fluxo-basico-fb">4. Fluxo Básico (FB)</h2>
+<ol>
+<li>O paciente acessa a plataforma "ConnectCare" e faz login.</li>
+<li>O paciente seleciona a opção de "Agendar Consulta".</li>
+<li>O sistema apresenta uma lista de serviços de saúde disponíveis.</li>
+<li>O paciente escolhe o tipo de serviço desejado e um profissional de saúde.</li>
+<li>O sistema exibe os horários disponíveis.</li>
+<li>O paciente seleciona um horário e confirma o agendamento.</li>
+<li>O sistema valida os dados e registra a consulta.</li>
+<li>O sistema gera uma confirmação e exibe as informações detalhadas.</li>
+<li>O paciente recebe a notificação de confirmação do agendamento.</li>
+</ol>
+<h2 id="5-fluxo-alternativo-fa">5. Fluxo Alternativo (FA)</h2>
+<h3 id="51-opcoes-de-agendamento">5.1 Opções de Agendamento</h3>
+<h4 id="511-a1-agendamento-com-preferencia-de-profissional">5.1.1 A1 - Agendamento com Preferência de Profissional</h4>
+<ul>
+<li>O paciente pode filtrar a busca por um profissional específico.</li>
+<li>O sistema exibe apenas os horários desse profissional.</li>
+<li>O paciente seleciona o horário e confirma o agendamento.</li>
+</ul>
+<h4 id="512-a2-agendamento-para-terceiros">5.1.2 A2 - Agendamento para Terceiros</h4>
+<ul>
+<li>O paciente pode agendar uma consulta para um dependente.</li>
+<li>O sistema solicita a identificação do dependente.</li>
+<li>O restante do fluxo segue normalmente.</li>
+</ul>
+<h2 id="6-fluxos-de-excecao">6. Fluxos de Exceção</h2>
+<h3 id="61-fe01-horario-indisponivel">6.1 FE01 - Horário Indisponível</h3>
+<ul>
+<li>No passo 4.6 do fluxo básico, caso o paciente selecione um horário que tenha sido preenchido por outro usuário simultaneamente, o sistema deve exibir a mensagem: "Horário indisponível. Por favor, escolha outro." e o caso de uso retorna ao passo 4.5 do FB.</li>
+</ul>
+<h3 id="62-fe02-dados-incompletos-ou-invalidos">6.2 FE02 - Dados Incompletos ou Inválidos</h3>
+<ul>
+<li>No passo 4.7 do fluxo básico, se os dados inseridos pelo paciente estiverem incompletos ou inválidos, o sistema exibe uma mensagem de erro solicitando a correção e impede a conclusão do agendamento. O caso de uso retorna ao passo 4.6 do FB.</li>
+</ul>
+<h3 id="63-fe03-paciente-sem-conta-ativa">6.3 FE03 - Paciente Sem Conta Ativa</h3>
+<ul>
+<li>No passo 4.1 do fluxo básico, caso o paciente tente acessar a plataforma sem uma conta ativa, o sistema deve exibir a mensagem: "Conta inativa. Verifique seu cadastro ou entre em contato com o suporte." e interromper o fluxo.</li>
+</ul>
+<h3 id="64-fe04-falha-na-conexao-com-o-sistema">6.4 FE04 - Falha na Conexão com o Sistema</h3>
+<ul>
+<li>Durante qualquer etapa do processo de agendamento, se houver falha na conexão com o sistema, o sistema exibe uma mensagem: "Erro de conexão. Tente novamente mais tarde." e interrompe o fluxo até a restauração da conexão.</li>
+</ul>
+<h2 id="7-regra-de-negocio">7. Regra de Negócio</h2>
+<h3 id="71-rn01-limite-de-agendamentos">7.1 RN01 - Limite de Agendamentos</h3>
+<ul>
+<li>O sistema deve permitir que um paciente tenha no máximo 3 consultas agendadas ativas. Caso tente agendar uma nova consulta, o sistema deve exibir uma mensagem de aviso e impedir o agendamento.</li>
+</ul>
+<h3 id="72-rn02-tempo-minimo-de-antecedencia">7.2 RN02 - Tempo Mínimo de Antecedência</h3>
+<ul>
+<li>O sistema deve permitir agendamentos apenas com, no mínimo, 24 horas de antecedência em relação à data atual.</li>
+</ul>
+<h3 id="73-rn03-cancelamento-de-consulta">7.3 RN03 - Cancelamento de Consulta</h3>
+<ul>
+<li>Caso o paciente precise cancelar um agendamento, ele deve realizar a solicitação com pelo menos 12 horas de antecedência. Caso contrário, o sistema pode restringir novos agendamentos por um período específico.</li>
+</ul>
+<h3 id="74-rn04-validacao-dos-dados-do-paciente">7.4 RN04 - Validação dos Dados do Paciente</h3>
+<ul>
+<li>Antes de confirmar um agendamento, o sistema deve garantir que os dados do paciente estejam atualizados, incluindo informações de contato e plano de saúde (se aplicável).</li>
+</ul>
+<h2 id="8-pos-condicoes">8. Pós-condições</h2>
+<ul>
+<li>8.1 O sistema deve gerar uma confirmação e notificar o paciente.</li>
+<li>8.2 O profissional de saúde recebe a notificação do agendamento.</li>
+</ul>
+<h2 id="9-ponto-de-extensao">9. Ponto de Extensão</h2>
+<ul>
+<li>O agendamento pode ser um ponto de extensão para a funcionalidade "Gerenciamento de Consultas", permitindo alterações, cancelamentos e integração com prontuários eletrônicos.</li>
+</ul>
+<hr />
+<h1 id="1-breve-descricao_1">1. Breve Descrição</h1>
+<p>A funcionalidade "Registrar Campanhas de Saúde" descreve o processo pelo qual campanhas de saúde, como vacinação, mutirões de atendimento ou ações preventivas, são registradas na plataforma ConnectCare. Os atores envolvidos interagem com o sistema para fornecer os detalhes relevantes, garantindo que as campanhas fiquem acessíveis aos moradores da comunidade.</p>
+<h2 id="2-atores_1">2. Atores</h2>
+<ul>
+<li><strong>Administrador do Sistema</strong>: Responsável por gerenciar a plataforma e fornecer suporte técnico.</li>
+<li><strong>Organizações Parceiras</strong>: Instituições ou entidades que colaboram para oferecer serviços ou recursos adicionais.</li>
+</ul>
+<h2 id="3-condicoes-previas_1">3. Condições Prévias</h2>
+<ul>
+<li>3.1 O ator deve estar autenticado no sistema com permissões adequadas.</li>
+<li>3.2 A base de dados deve estar funcional para armazenar as campanhas registradas.</li>
+</ul>
+<h2 id="4-fluxo-basico-fb_1">4. Fluxo Básico (FB)</h2>
+<ol>
+<li>O ator acessa a plataforma "ConnectCare" e faz login.</li>
+<li>O ator seleciona a opção "Registrar Campanha de Saúde".</li>
+<li>O sistema exibe um formulário para preenchimento dos detalhes da campanha.</li>
+<li>O ator preenche o formulário e confirma o registro.</li>
+<li>O sistema valida as informações inseridas e registra a nova campanha na base de dados.</li>
+<li>O sistema notifica o ator sobre o sucesso do registro e disponibiliza a campanha para consulta pelos usuários.</li>
+</ol>
+<h2 id="5-fluxo-alternativo-fa_1">5. Fluxo Alternativo (FA)</h2>
+<h3 id="51-opcoes-de-registro">5.1 Opções de Registro</h3>
+<h4 id="511-fa1-registro-por-tipo-de-campanha">5.1.1 FA1: Registro por Tipo de Campanha</h4>
+<ul>
+<li>O ator pode escolher entre diferentes tipos de campanhas, como vacinação, mutirão de atendimento ou ações educativas.</li>
+<li>O sistema apresenta opções específicas para cada tipo de campanha, ajustando os campos obrigatórios conforme necessário.</li>
+<li>O ator preenche os detalhes e finaliza o registro da campanha.</li>
+</ul>
+<h4 id="512-fa2-monitoramento-e-ajuste-de-campanha">5.1.2 FA2 - Monitoramento e Ajuste de Campanha</h4>
+<ul>
+<li>O ator deseja revisar o desempenho da campanha após o registro.</li>
+<li>O sistema exibe métricas de participação e engajamento dos usuários.</li>
+<li>Se necessário, o ator pode ajustar detalhes da campanha (como estender o período de duração ou ampliar o público-alvo).</li>
+<li>O sistema atualiza as informações e reenvia notificações aos usuários afetados.</li>
+</ul>
+<h2 id="6-fluxos-de-excecao-fe">6. Fluxos de Exceção (FE)</h2>
+<h3 id="61-fe1-dados-incompletos-ou-invalidos">6.1 FE1: Dados Incompletos ou Inválidos</h3>
+<ul>
+<li>No passo 5 do fluxo principal, se os dados inseridos pelo ator estiverem incompletos ou inválidos, o sistema exibe uma mensagem de erro solicitando a correção. O caso de uso retorna ao passo 4 para que o ator revise os campos obrigatórios.</li>
+</ul>
+<h3 id="62-fe2-falha-na-conexao-com-o-sistema">6.2 FE2: Falha na Conexão com o Sistema</h3>
+<ul>
+<li>Durante qualquer etapa do processo de registro, se houver falha na conexão com o sistema, o sistema exibe uma mensagem: "Erro de conexão. Tente novamente mais tarde." e interrompe o fluxo até a restauração da conexão.</li>
+</ul>
+<h2 id="7-regras-de-negocio">7. Regras de Negócio</h2>
+<h3 id="71-rn1-validacao-das-informacoes-da-campanha">7.1 RN1: Validação das Informações da Campanha</h3>
+<ul>
+<li>O sistema deve garantir que os dados inseridos na campanha estejam corretos e completos antes de permitir o registro.</li>
+</ul>
+<h3 id="72-rn2-prazos-para-cadastro-de-campanhas">7.2 RN2: Prazos para Cadastro de Campanhas</h3>
+<ul>
+<li>As campanhas devem ser registradas com pelo menos 48 horas de antecedência em relação à sua realização para garantir a divulgação adequada.</li>
+</ul>
+<h3 id="73-rn3-monitoramento-de-impacto">7.3 RN3: Monitoramento de Impacto</h3>
+<ul>
+<li>Após a conclusão da campanha, os organizadores devem registrar métricas de impacto na plataforma, como número de atendimentos realizados e feedback dos participantes.</li>
+</ul>
+<h2 id="8-pos-condicoes_1">8. Pós-condições</h2>
+<ul>
+<li>8.1 A campanha estará disponível para os usuários da plataforma.</li>
+<li>8.2 O ator receberá uma notificação confirmando o sucesso do registro.</li>
+</ul>
+<h2 id="9-ponto-de-extensao_1">9. Ponto de Extensão</h2>
+<ul>
+<li>9.1 "Editar Campanhas de Saúde": Permitir a atualização de informações de campanhas já registradas.</li>
+<li>9.2 "Consultar Campanhas de Saúde": Verificar as campanhas já registradas para evitar duplicidades.</li>
+</ul>
+<hr />
+<h1 id="1-breve-descricao_2">1. Breve Descrição</h1>
+<p>Este caso de uso “Gerenciar Histórico Médico” descreve o processo pelo qual médicos e organizações parceiras acessam, atualizam e monitoram os históricos médicos dos pacientes na plataforma.</p>
+<h2 id="2-atores_2">2. Atores</h2>
+<ul>
+<li><strong>Profissional de Saúde</strong>: Médico, enfermeiro ou técnico que realizará o atendimento.</li>
+<li><strong>Organizações Parceiras</strong>: Instituições ou entidades que colaboram para oferecer serviços ou recursos adicionais.</li>
+</ul>
+<h2 id="3-condicoes-previas_2">3. Condições Prévias</h2>
+<ul>
+<li>3.1 O profissional de saúde deve estar autenticado no sistema.</li>
+<li>3.2 O paciente deve ter um histórico médico registrado no sistema.</li>
+</ul>
+<h2 id="4-fluxo-basico-fb_2">4. Fluxo Básico (FB)</h2>
+<ol>
+<li>O profissional de saúde acessa a plataforma ConnectCare e faz login.</li>
+<li>O profissional de saúde busca o histórico médico do paciente inserindo informações de identificação (nome, número do CPF, etc.).</li>
+<li>O sistema exibe o histórico médico do paciente, incluindo dados como doenças passadas, tratamentos e exames realizados.</li>
+<li>O profissional de saúde pode atualizar ou adicionar informações ao histórico, como novos diagnósticos, exames e receitas.</li>
+<li>O sistema valida as informações inseridas e atualiza o histórico médico do paciente.</li>
+<li>O sistema gera uma confirmação e notifica o profissional de saúde sobre o sucesso da atualização.</li>
+</ol>
+<h2 id="5-fluxo-alternativo-fa_2">5. Fluxo Alternativo (FA)</h2>
+<h3 id="51-fa1-historico-medico-incompleto">5.1 FA1: Histórico Médico Incompleto</h3>
+<ul>
+<li>Caso o sistema não tenha todos os dados do paciente, o profissional de saúde será notificado de que o histórico está incompleto.</li>
+<li>O profissional pode optar por adicionar informações ou aguardar que outras fontes de dados sejam adicionadas.</li>
+</ul>
+<h3 id="52-fa2-acesso-negado">5.2 FA2: Acesso Negado</h3>
+<ul>
+<li>Caso o profissional de saúde não tenha permissão para acessar o histórico médico do paciente, o sistema exibe uma mensagem de erro e impede o acesso.</li>
+</ul>
+<h2 id="6-fluxos-de-excecao_1">6. Fluxos de Exceção</h2>
+<h3 id="61-fe1-dados-incompletos-ou-invalidos_1">6.1 FE1: Dados Incompletos ou Inválidos</h3>
+<ul>
+<li>No passo 5 do fluxo básico, se as informações inseridas pelo profissional de saúde forem inválidas ou incompletas, o sistema exibe uma mensagem de erro solicitando a correção. O caso de uso retorna ao passo 4 para que o profissional revise os dados.</li>
+</ul>
+<h3 id="62-fe2-falha-na-conexao-com-o-sistema_1">6.2 FE2: Falha na Conexão com o Sistema</h3>
+<ul>
+<li>Caso ocorra falha na conexão durante qualquer etapa do processo, o sistema exibe uma mensagem de erro informando sobre a falha de conexão.</li>
+</ul>
+<h2 id="7-regras-de-negocio_1">7. Regras de Negócio</h2>
+<h3 id="71-rn1-validacao-de-dados-do-historico">7.1 RN1: Validação de Dados do Histórico</h3>
+<ul>
+<li>O sistema deve garantir que todos os dados inseridos no histórico médico sejam válidos e completos antes de confirmar a atualização.</li>
+</ul>
+<h3 id="72-rn2-acesso-controlado">7.2 RN2: Acesso Controlado</h3>
+<ul>
+<li>O sistema deve permitir que apenas profissionais de saúde autorizados acessem os históricos médicos dos pacientes.</li>
+</ul>
+<h2 id="8-pos-condicoes_2">8. Pós-condições</h2>
+<ul>
+<li>8.1 O histórico médico do paciente será atualizado com sucesso.</li>
+<li>8.2 O profissional de saúde receberá a confirmação do sucesso da operação.</li>
+</ul>
+<h2 id="9-ponto-de-extensao_2">9. Ponto de Extensão</h2>
+<ul>
+<li>9.1 "Visualizar Histórico Médico Completo": Permitir o acesso total ao histórico médico de um paciente.
+9.2 "Consultar Histórico Médico": Facilita a busca por registros específicos.</li>
+</ul>
+<hr />
+<h2 id="1-breve-descricao_3">1. Breve Descrição</h2>
+<p>A funcionalidade "Cadastrar Serviços" permite que o profissional da saúde registre novos serviços disponíveis no sistema, como consultas, exames ou campanhas de prevenção, tornando-os acessíveis para os usuários.</p>
+<h2 id="2-atores_3">2. Atores</h2>
+<ul>
+<li><em>Administrador do Sistema</em>: Responsável por gerenciar a plataforma e fornecer suporte técnico.       </li>
+<li><em>Organizações parceiras</em>: Instituições ou entidades que colaboram para oferecer serviços ou recursos adicionais.  </li>
+<li><em>Profissional da Saúde</em>: Instituições ou entidades que colaboram para oferecer serviços ou recursos adicionais.  </li>
+</ul>
+<h2 id="3-condicoes-previas_3">3. Condições Prévias</h2>
+<ol>
+<li>O profissional da saúde ou administrador deve estar autenticado no sistema.</li>
+<li>O sistema deve possuir categorias de serviços cadastradas previamente.</li>
+<li>Deve haver espaço suficiente no banco de dados para armazenar novos serviços.</li>
+</ol>
+<h2 id="4-fluxo-basico-fb_3">4. Fluxo Básico (FB)</h2>
+<ol>
+<li>O ator acessa a plataforma "ConnectCare" e faz login.</li>
+<li>O sistema verifica as credenciais e concede acesso ao painel do profissional.</li>
+<li>O ator seleciona a opção "Cadastrar Serviços".</li>
+<li>O sistema exibe o formulário de cadastro de serviços.</li>
+<li>O ator preenche os campos obrigatórios.</li>
+<li>O ator confirma o cadastro clicando no botão "Salvar".</li>
+<li>O sistema valida as informações inseridas e salva o serviço no banco de dados.</li>
+<li>O sistema exibe uma mensagem de confirmação: <em>"Serviço cadastrado com sucesso"</em>.</li>
+</ol>
+<h2 id="5-fluxo-alternativo-fa_3">5. Fluxo Alternativo (FA)</h2>
+<h3 id="51-fa1-cadastro-com-categoria-especifica">5.1 FA1: Cadastro com Categoria Específica</h3>
+<ul>
+<li>O ator pode filtrar o cadastro por uma categoria específica de serviço (exemplo: consultas, exames, campanhas).  </li>
+<li>O sistema exibe apenas os campos relacionados à categoria selecionada.  </li>
+<li>O ator preenche os detalhes correspondentes e confirma o cadastro.  </li>
+</ul>
+<h3 id="52-fa2-cadastro-para-instituicoes-parceiras">5.2 FA2: Cadastro para Instituições Parceiras</h3>
+<ul>
+<li>O ator pode cadastrar um serviço em nome de uma organização parceira.  </li>
+<li>O sistema solicita a identificação da organização.  </li>
+<li>O restante do fluxo segue normalmente.  </li>
+</ul>
+<h3 id="53-fa3-falha-na-validacao-dos-dados">5.3 FA3: Falha na Validação dos Dados</h3>
+<p>Caso algum campo obrigatório não seja preenchido ou contenha dados inválidos:<br />
+- O sistema destaca os campos pendentes ou inválidos.<br />
+- O sistema exibe uma mensagem de erro: <em>"Preencha todos os campos obrigatórios corretamente"</em>.<br />
+- O ator corrige as informações e retorna ao passo 6 do fluxo principal.  </p>
+<h3 id="54-fa4-erro-de-conexao">5.4 FA4: Erro de Conexão</h3>
+<p>Se ocorrer um problema de conexão com o banco de dados:<br />
+- O sistema exibe uma mensagem de erro: <em>"Não foi possível salvar o serviço. Tente novamente mais tarde"</em>.<br />
+- O ator pode optar por tentar novamente ou salvar as informações localmente para envio posterior.  </p>
+<h2 id="6-fluxos-de-excecao-fe_1">6. Fluxos de Exceção (FE)</h2>
+<h3 id="61-fe1-tentativa-de-cadastro-duplicado">6.1 FE1: Tentativa de cadastro duplicado</h3>
+<p>Caso o ator tente cadastrar um serviço já existente, o sistema exibe uma mensagem de erro e solicita a revisão dos dados antes de prosseguir.  </p>
+<h3 id="62-fe2-falha-na-autenticacao">6.2 FE2: Falha na autenticação</h3>
+<p>Caso o ator não esteja autenticado corretamente, o sistema impede o acesso à funcionalidade de cadastro e exibe uma mensagem informativa.  </p>
+<h2 id="7-regras-de-negocio_2">7. Regras de Negócio</h2>
+<ol>
+<li><em>RN1: Validação dos dados do serviço</em>  </li>
+<li>
+<p>O sistema deve garantir que os dados inseridos estejam completos e consistentes antes de permitir o cadastro.  </p>
+</li>
+<li>
+<p><em>RN2: Atualização de serviços</em>  </p>
+</li>
+<li>
+<p>O profissional da saúde ou administrador pode atualizar as informações de um serviço já cadastrado, desde que autorizado.  </p>
+</li>
+<li>
+<p><em>RN3: Limite de serviços cadastrados</em>  </p>
+</li>
+<li>Cada profissional pode cadastrar um número limitado de serviços simultaneamente, conforme política do sistema.  </li>
+</ol>
+<h2 id="8-pos-condicoes_3">8. Pós-condições</h2>
+<ol>
+<li>O serviço estará disponível para visualização e agendamento pelos usuários do sistema.  </li>
+<li>O profissional da saúde recebe uma confirmação do cadastro.  </li>
+</ol>
+<h2 id="9-ponto-de-extensao_3">9. Ponto de extensão</h2>
+<ol>
+<li><em>"Gerenciar Serviços"</em>: Permite alterações e exclusões de serviços já cadastrados.  </li>
+<li><em>"Consultar Serviços"</em>: Facilita a busca por serviços cadastrados previamente.  </li>
+</ol>
+<hr />
+<h2 id="1-breve-descricao_4">1. Breve Descrição</h2>
+<p>A funcionalidade “Registrar Visitas Domiciliares” descreve o processo pelo qual agentes comunitários e profissionais da saúde realizam e registram visitas domiciliares para atendimento de pacientes que não possuem acesso facilitado a unidades de saúde. A funcionalidade permite a coleta de dados sobre as condições de saúde da população e auxilia na identificação de áreas prioritárias para campanhas preventivas.</p>
+<h2 id="2-atores_4">2. Atores</h2>
+<ul>
+<li><em>Agente Comunitário</em>: Responsável por realizar visitas domiciliares e registrar informações sobre a condição de saúde dos pacientes.  </li>
+<li><em>Profissional da Saúde</em>: Instituições ou entidades que colaboram para oferecer serviços ou recursos adicionais.    </li>
+</ul>
+<h2 id="3-condicoes-previas_4">3. Condições Prévias</h2>
+<ol>
+<li>O agente comunitário ou profissional da saúde deve estar autenticado no sistema.  </li>
+<li>O paciente deve estar cadastrado na plataforma.  </li>
+<li>O sistema deve possuir um banco de dados atualizado de pacientes e suas localizações.  </li>
+<li>As permissões de cada ator devem estar corretamente definidas para garantir a segurança dos dados.  </li>
+</ol>
+<h2 id="4-fluxo-basico-fb_4">4. Fluxo Básico (FB)</h2>
+<ol>
+<li>O ator acessa a plataforma "ConnectCare" e faz login.  </li>
+<li>O sistema verifica as credenciais e concede acesso conforme o nível de permissão.  </li>
+<li>O ator acessa a funcionalidade "Registrar Visita Domiciliar".  </li>
+<li>O ator pode buscar pacientes utilizando filtros como localização, tipo de atendimento necessário e disponibilidade.  </li>
+<li>O sistema exibe uma lista de pacientes elegíveis para visitas domiciliares.  </li>
+<li>O ator seleciona um paciente e inicia o registro da visita.  </li>
+<li>O sistema exibe um formulário para preenchimento de dados da visita.  </li>
+<li>O ator preenche os campos obrigatórios e confirma o registro.  </li>
+<li>O sistema valida as informações e salva o registro na base de dados.  </li>
+<li>O sistema exibe uma mensagem de confirmação: <em>"Visita domiciliar registrada com sucesso"</em>.  </li>
+<li>Os dados registrados podem ser utilizados para gerar relatórios e auxiliar na identificação de áreas prioritárias para campanhas preventivas.  </li>
+</ol>
+<h2 id="5-fluxo-alternativo-fa_4">5. Fluxo Alternativo (FA)</h2>
+<h3 id="51-fa1-reagendamento-de-visita-domiciliar">5.1 FA1: Reagendamento de Visita Domiciliar</h3>
+<ul>
+<li>Caso o paciente não esteja disponível no momento da tentativa de visita, o ator pode agendar uma nova data e horário.  </li>
+<li>O sistema notifica o paciente e registra o agendamento.  </li>
+<li>O ator recebe um lembrete antes do horário agendado.  </li>
+</ul>
+<h3 id="52-fa2-registro-por-terceiros-autorizados">5.2 FA2: Registro por Terceiros Autorizados</h3>
+<ul>
+<li>O agente comunitário pode registrar a visita em nome de outro profissional da saúde que tenha realizado o atendimento.  </li>
+<li>O sistema solicita a identificação do profissional responsável.  </li>
+</ul>
+<h3 id="53-fa3-falha-na-validacao-dos-dados_1">5.3 FA3: Falha na Validação dos Dados</h3>
+<p>Caso algum campo obrigatório não seja preenchido ou contenha dados inválidos:<br />
+- O sistema destaca os campos pendentes ou inválidos.<br />
+- O sistema exibe uma mensagem de erro: <em>"Preencha todos os campos obrigatórios corretamente"</em>.  </p>
+<h2 id="6-fluxos-de-excecao-fe_2">6. Fluxos de Exceção (FE)</h2>
+<h3 id="61-fe1-tentativa-de-acesso-nao-autorizado">6.1 FE1: Tentativa de Acesso Não Autorizado</h3>
+<p>Caso um ator sem permissão tente acessar ou registrar visitas domiciliares, o sistema exibe uma mensagem de erro e impede a ação.  </p>
+<h3 id="62-fe2-paciente-nao-encontrado">6.2 FE2: Paciente Não Encontrado</h3>
+<p>Caso o paciente não possua cadastro na plataforma, o sistema exibe uma mensagem: <em>"Paciente não encontrado"</em> e solicita o cadastro antes da realização da visita.</p>
+<h2 id="7-regras-de-negocio_3">7. Regras de Negócio</h2>
+<ol>
+<li><em>RN1: Validação dos dados da visita</em>  </li>
+<li>
+<p>O sistema deve garantir que os dados inseridos estejam completos e consistentes antes de permitir o registro da visita.  </p>
+</li>
+<li>
+<p><em>RN2: Confidencialidade dos dados</em>  </p>
+</li>
+<li>
+<p>Apenas profissionais autorizados podem acessar os registros de visitas domiciliares.  </p>
+</li>
+<li>
+<p><em>RN3: Relatórios de visitas</em>  </p>
+</li>
+<li>O sistema deve permitir a geração de relatórios para análise de tendências e identificação de áreas prioritárias.  </li>
+</ol>
+<h2 id="8-pos-condicoes_4">8. Pós-condições</h2>
+<ol>
+<li>O registro da visita domiciliar estará disponível para consulta e análise posterior.  </li>
+<li>O profissional responsável receberá uma confirmação do registro.  </li>
+<li>Os dados poderão ser utilizados para planejamento de campanhas preventivas e políticas de saúde pública.  </li>
+</ol>
+<h2 id="9-ponto-de-extensao_4">9. Ponto de extensão</h2>
+<ol>
+<li><em>"Consultar Visitas Domiciliares"</em>: Permite a busca e visualização de registros de visitas anteriores.  </li>
+<li><em>"Gerar Relatórios de Visitas"</em>: Facilita a análise de dados e a tomada de decisões estratégicas.</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      
+    
+  </body>
+</html>
