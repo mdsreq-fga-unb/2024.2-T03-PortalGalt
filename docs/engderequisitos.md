@@ -133,6 +133,48 @@
 
 * **Revisão do backlog da release:** Atualização do backlog considerando as histórias que já foram entregues, as novas histórias criadas e as próximas a serem desenvolvidas.
 
+# Adoção de um Modelo Híbrido: Scrum XP com Elementos do OpenUP
+
+Neste projeto, adotamos uma abordagem ágil híbrida, combinando os princípios e práticas de Scrum XP com alguns métodos do OpenUP (Open Unified Process), criando uma metodologia customizada que melhor atende às necessidades do nosso time e ao perfil do nosso produto.
+
+## Principais Abordagens Ágeis: Scrum XP
+
+O Scrum XP é um framework ágil focado na entrega contínua e incremental de valor, combinando a flexibilidade do Scrum com as boas práticas de desenvolvimento do Extreme Programming (XP).
+
+| Scrum XP | Descrição |
+| -------- | --------- |
+| **Scrum** | Fornece uma estrutura de trabalho para organização e gestão do time, com ciclos de desenvolvimento organizados em sprints (geralmente de 2 a 4 semanas), nos quais entregamos funcionalidades incrementais e trabalhamos de forma colaborativa. |
+| **XP** | Acrescenta práticas técnicas que garantem a qualidade do código e o desenvolvimento de funcionalidades de maneira eficiente e sustentável, como programação em pares, testes automatizados e refatoração contínua. |
+
+## Integração do OpenUP
+
+Embora o Scrum XP tenha sido o principal framework de desenvolvimento, decidimos integrar alguns aspectos do OpenUP para ajustar a entrega do projeto às características específicas que desejamos alcançar. Em particular, a parte da entrega final será tratada de maneira diferente. Em vez de realizar entregas incrementais ao final de cada sprint, o projeto adotará uma abordagem mais estruturada inspirada no OpenUP, com uma entrega substancial no final do ciclo de desenvolvimento.
+
+### Fases de Entrega no OpenUP
+
+O OpenUP oferece uma estrutura organizada e focada em fases distintas do desenvolvimento, desde a iniciação até a transição. Embora nossa abordagem principal seja ágil, o OpenUP foi integrado para trazer maior estrutura e previsibilidade ao processo de entrega final:
+
+| Fase | Descrição |
+| ---- | --------- |
+| **Planejamento da Release e Execução** | Diferente do modelo tradicional do Scrum, em que as entregas são feitas ao final de cada sprint, decidimos que as funcionalidades do nosso projeto serão entregues de uma só vez, ao final do ciclo de desenvolvimento. Este modelo é inspirado no OpenUP, que enfatiza a entrega de um produto final ou release com uma análise de risco mais profunda e um controle maior sobre a arquitetura do sistema. |
+| **Gerenciamento de Requisitos e Arquitetura** | Durante o ciclo de desenvolvimento, utilizamos práticas do OpenUP para manter uma visão clara da arquitetura do sistema e gerenciar os requisitos de forma eficiente. Embora o Scrum forneça flexibilidade na definição de histórias de usuário e backlog, o OpenUP nos ajudou a manter o alinhamento técnico e estratégico, com um foco maior no planejamento arquitetural desde o início. |
+| **Entrega Substancial no Final** | A principal mudança que o OpenUP traz para o nosso processo é o modelo de entrega. No OpenUP, a entrega final de um sistema ocorre com uma versão robusta do produto, e não ao longo de várias iterações menores. Adaptamos essa prática para nosso projeto, fazendo uma entrega grande e integrada no final do ciclo de desenvolvimento, garantindo que todas as funcionalidades do sistema sejam entregues de forma coesa, testadas e documentadas. |
+
+## Benefícios do Modelo Híbrido
+
+A adoção deste modelo híbrido proporciona uma combinação dos pontos fortes das duas abordagens, permitindo que aproveitemos os melhores aspectos do Scrum XP e do OpenUP.
+
+| Benefício | Descrição |
+| --------- | --------- |
+| **Entrega contínua de valor** | O Scrum XP garante que o time tenha um ritmo de trabalho constante e que entreguemos funcionalidades em um fluxo contínuo, com feedback rápido e constante. Mesmo com a entrega final sendo substancial, ainda mantemos uma abordagem ágil e reativa durante o desenvolvimento. |
+| **Alta qualidade técnica** | As práticas de XP, como testes automatizados e programação em pares, asseguram que a qualidade do código seja mantida ao longo de todo o desenvolvimento, permitindo uma entrega final mais robusta e sem problemas técnicos. |
+| **Visibilidade e controle sobre a arquitetura** | Integrar práticas do OpenUP nos permitiu planejar e organizar melhor os aspectos técnicos do sistema, com maior foco em arquitetura e gerenciamento de requisitos, garantindo que, ao final do ciclo de desenvolvimento, o produto entregue seja bem estruturado e de alta qualidade. |
+| **Gerenciamento de riscos e previsibilidade** | O uso de elementos do OpenUP oferece um controle maior sobre os riscos e as dependências do projeto, dando ao time uma visão mais clara de como as funcionalidades se encaixam no escopo geral e permitindo um planejamento de release mais detalhado. |
+
+## Conclusão
+
+Ao adotar um modelo híbrido, combinando o Scrum XP com elementos do OpenUP, criamos um processo de desenvolvimento ágil e robusto que oferece flexibilidade nas entregas contínuas de funcionalidades, ao mesmo tempo que garante a estrutura e previsibilidade necessárias para uma entrega final consistente e de alta qualidade. Este mix de metodologias nos permite entregar valor de forma eficaz, mantendo a flexibilidade do ágil e garantindo a excelência técnica que o OpenUP oferece.
+
 
 *Histórico de Revisão*
 
@@ -141,3 +183,4 @@
 | 15/12/2024 | 1.0 | Criação da página Engenharia de Requisitos | Cairo Florenço |
 | 16/12/2024 | 1.1 | Preenchimento das tabelas de atividades da ER | João Pedro |
 | 20/01/2025 | 2.0 | Atualização das tabelas de atividades da ER | Cairo Florenço |
+| 10/02/2025 | 3.0 | Atualização da abordagem da ER | Bruno Oliveira |
