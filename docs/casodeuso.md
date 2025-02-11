@@ -227,6 +227,8 @@ Este caso de uso “Gerenciar Histórico Médico” descreve o processo pelo qua
 - 9.1 "Visualizar Histórico Médico Completo": Permitir o acesso total ao histórico médico de um paciente.
 9.2 "Consultar Histórico Médico": Facilita a busca por registros específicos.
 
+
+---
 ## 1. Breve Descrição 
 
 A funcionalidade "Cadastrar Serviços" permite que o profissional da saúde registre novos serviços disponíveis no sistema, como consultas, exames ou campanhas de prevenção, tornando-os acessíveis para os usuários.
@@ -306,7 +308,7 @@ Caso o ator não esteja autenticado corretamente, o sistema impede o acesso à f
 1. *"Gerenciar Serviços"*: Permite alterações e exclusões de serviços já cadastrados.  
 2. *"Consultar Serviços"*: Facilita a busca por serviços cadastrados previamente.  
 
-
+---
 ## 1. Breve Descrição  
 
 A funcionalidade “Registrar Visitas Domiciliares” descreve o processo pelo qual agentes comunitários e profissionais da saúde realizam e registram visitas domiciliares para atendimento de pacientes que não possuem acesso facilitado a unidades de saúde. A funcionalidade permite a coleta de dados sobre as condições de saúde da população e auxilia na identificação de áreas prioritárias para campanhas preventivas.
