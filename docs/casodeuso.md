@@ -9,7 +9,7 @@ Atividade realizada no draw.io, acesse [por aqui.]([==?share_link_id=76883198574
 
 ## Diagrama de Caso de Uso:
 
-![o que é](images/diagramacasodeuso.png)
+![image](https://github.com/user-attachments/assets/c5625191-70d9-4022-b423-084a918b4bbd)
 
 # Especificação Caso de Uso 
 
