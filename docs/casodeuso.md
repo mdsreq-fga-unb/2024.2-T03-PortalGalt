@@ -13,7 +13,6 @@ forte rede social e um espírito colabora)vo, que serviram como base para o dese
 
 > Baseado em "Exercício de Construção de Caso de Uso" passado em sala de aula pelo Prof. Dr. George Marsicano
 
-Atividade realizada no draw.io, acesse [por aqui.]([==?share_link_id=76883198574](https://app.diagrams.net/?state=%7B%22ids%22:%5B%221EwKYJ__zdSLGAodIqHTdH5v_IIO-VzrK%22%5D,%22action%22:%22open%22,%22userId%22:%22108410733361969665114%22,%22resourceKeys%22:%7B%7D%7D))
 
 ## Diagrama de Caso de Uso:
 
