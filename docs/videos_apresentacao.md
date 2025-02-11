@@ -26,3 +26,6 @@ Gravação expirou.
 
 ## Apresentação Unidade 4
 
+[Confira aqui](https://youtu.be/MCsFV_NF25I)
+
+[![alt text](images/thumb5.png)](https://youtu.be/MCsFV_NF25I)
