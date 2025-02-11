@@ -23,11 +23,11 @@ Atividade realizada no MURAL, template feito por Fábio Aguiar, acesse [por aqui
 ## Personas:
 
 ### Persona 1: Carlos
-![alt text](images/pbbcarlos.png)
+![alt text](images/pbbtecnico.png)
 ### Persona 2: Ana
-![alt text](images/pbbana.png)
+![alt text](images/pbbdiretora.png)
 ### Persona 3: Rafael
-![alt text](images/pbbrafael.png)
+![alt text](images/pbbclientecorp.png)
 
 ## Funcionalidades:
 
@@ -41,11 +41,11 @@ Atividade realizada no MURAL, template feito por Fábio Aguiar, acesse [por aqui
 ## PBI:
 
 ### PBI Carlos
-![alt text](images/pbbpbicarlos.png)
+![alt text](images/pbitecnico.png)
 ### PBI Ana
-![alt text](images/pbbpbiana.png)
+![alt text](images/pbidiretora.png)
 ### PBI Rafael
-![alt text](images/pbbpbirafael.png)
+![alt text](images/pbiclientecorp.png)
 
 
 ## Histórias de Usuários:
