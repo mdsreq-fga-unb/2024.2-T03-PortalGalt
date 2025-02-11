@@ -160,17 +160,6 @@ O OpenUP oferece uma estrutura organizada e focada em fases distintas do desenvo
 | **Gerenciamento de Requisitos e Arquitetura** | Durante o ciclo de desenvolvimento, utilizamos práticas do OpenUP para manter uma visão clara da arquitetura do sistema e gerenciar os requisitos de forma eficiente. Embora o Scrum forneça flexibilidade na definição de histórias de usuário e backlog, o OpenUP nos ajudou a manter o alinhamento técnico e estratégico, com um foco maior no planejamento arquitetural desde o início. |
 | **Entrega Substancial no Final** | A principal mudança que o OpenUP traz para o nosso processo é o modelo de entrega. No OpenUP, a entrega final de um sistema ocorre com uma versão robusta do produto, e não ao longo de várias iterações menores. Adaptamos essa prática para nosso projeto, fazendo uma entrega grande e integrada no final do ciclo de desenvolvimento, garantindo que todas as funcionalidades do sistema sejam entregues de forma coesa, testadas e documentadas. |
 
-## Benefícios do Modelo Híbrido
-
-A adoção deste modelo híbrido proporciona uma combinação dos pontos fortes das duas abordagens, permitindo que aproveitemos os melhores aspectos do Scrum XP e do OpenUP.
-
-| Benefício | Descrição |
-| --------- | --------- |
-| **Entrega contínua de valor** | O Scrum XP garante que o time tenha um ritmo de trabalho constante e que entreguemos funcionalidades em um fluxo contínuo, com feedback rápido e constante. Mesmo com a entrega final sendo substancial, ainda mantemos uma abordagem ágil e reativa durante o desenvolvimento. |
-| **Alta qualidade técnica** | As práticas de XP, como testes automatizados e programação em pares, asseguram que a qualidade do código seja mantida ao longo de todo o desenvolvimento, permitindo uma entrega final mais robusta e sem problemas técnicos. |
-| **Visibilidade e controle sobre a arquitetura** | Integrar práticas do OpenUP nos permitiu planejar e organizar melhor os aspectos técnicos do sistema, com maior foco em arquitetura e gerenciamento de requisitos, garantindo que, ao final do ciclo de desenvolvimento, o produto entregue seja bem estruturado e de alta qualidade. |
-| **Gerenciamento de riscos e previsibilidade** | O uso de elementos do OpenUP oferece um controle maior sobre os riscos e as dependências do projeto, dando ao time uma visão mais clara de como as funcionalidades se encaixam no escopo geral e permitindo um planejamento de release mais detalhado. |
-
 ## Conclusão
 
 Ao adotar um modelo híbrido, combinando o Scrum XP com elementos do OpenUP, criamos um processo de desenvolvimento ágil e robusto que oferece flexibilidade nas entregas contínuas de funcionalidades, ao mesmo tempo que garante a estrutura e previsibilidade necessárias para uma entrega final consistente e de alta qualidade. Este mix de metodologias nos permite entregar valor de forma eficaz, mantendo a flexibilidade do ágil e garantindo a excelência técnica que o OpenUP oferece.
