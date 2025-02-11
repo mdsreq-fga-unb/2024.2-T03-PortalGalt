@@ -13,15 +13,14 @@ forte rede social e um espírito colaborativo, que serviram como base para o des
 
 > Baseado em "Exercício de Construção de Caso de Uso" passado em sala de aula pelo Prof. Dr. George Marsicano
 
-Atividade realizada no draw.io, acesse [por aqui.]([==?share_link_id=76883198574](https://app.diagrams.net/?state=%7B%22ids%22:%5B%221EwKYJ__zdSLGAodIqHTdH5v_IIO-VzrK%22%5D,%22action%22:%22open%22,%22userId%22:%22108410733361969665114%22,%22resourceKeys%22:%7B%7D%7D))
 
 ## Diagrama de Caso de Uso:
 
-![o que é](images/diagramacasodeuso.png)
+![image](https://github.com/user-attachments/assets/c5625191-70d9-4022-b423-084a918b4bbd)
 
 # Especificação Caso de Uso 
 
-# 1. Breve Descrição 
+## 1. Breve Descrição 
 
 A funcionalidade "Realizar Agendamento" no modelo de Diagrama de Casos de Uso para o ConnectCare deve envolver os principais atores e interações do sistema relacionadas ao processo de agendamento de consultas ou exames.
 
