@@ -17,11 +17,11 @@ Atividade realizada no MIRO, acesse [por aqui.](https://miro.com/welcomeonboard/
 
 ![alt text](images/usm/problemas.png)
 
-## benefícios:
+## Benefícios:
 
 ![alt text](images/usm/beneficios.png)
 
-## mapa completo:
+## Mapa completo:
 ![alt text](images/usm/toutUSM.png)
 
 ## Caminhos:
