@@ -6,7 +6,7 @@
 
 * Ciclo de Vida: Incremental e Iterativo
 
-* Processo: ScrumXP
+* Processo: Híbrido (ScrumXP e Open Up)
 
 ## Quadro Comparativo
 
@@ -29,15 +29,22 @@
 > Fonte: slide de sala de aula "Unidade 1 - Aula - Aborgadens, Ciclos de Vida e Processo.pdf"
 > Exemplo ecofashion "TEMPLATE - REQ - 2024.2 - Visao do Produto e Projeto.pdf"
 
+| Benefício | Descrição |
+| --------- | --------- |
+| **Entrega contínua de valor** | O Scrum XP garante que o time tenha um ritmo de trabalho constante e que entreguemos funcionalidades em um fluxo contínuo, com feedback rápido e constante. Mesmo com a entrega final sendo substancial, ainda mantemos uma abordagem ágil e reativa durante o desenvolvimento. |
+| **Alta qualidade técnica** | As práticas de XP, como testes automatizados e programação em pares, asseguram que a qualidade do código seja mantida ao longo de todo o desenvolvimento, permitindo uma entrega final mais robusta e sem problemas técnicos. |
+| **Visibilidade e controle sobre a arquitetura** | Integrar práticas do OpenUP nos permitiu planejar e organizar melhor os aspectos técnicos do sistema, com maior foco em arquitetura e gerenciamento de requisitos, garantindo que, ao final do ciclo de desenvolvimento, o produto entregue seja bem estruturado e de alta qualidade. |
+| **Gerenciamento de riscos e previsibilidade** | O uso de elementos do OpenUP oferece um controle maior sobre os riscos e as dependências do projeto, dando ao time uma visão mais clara de como as funcionalidades se encaixam no escopo geral e permitindo um planejamento de release mais detalhado. |
+
 ## Justificativa 
  
-1. Flexibilidade: As entregas incrementais e iterativas oferecem ao cliente a oportunidade de estar mais próximo da produção do produto, garantindo que o produto evolua conforme as necessidades do Galt.
+1. Flexibilidade e Entrega Final Estruturada: O modelo híbrido combina a flexibilidade do Scrum XP com a estrutura do OpenUP, garantindo entregas incrementais e uma entrega final bem planejada e de alta qualidade.
 
-2. Arquitetura Simples: O produto não exige uma arquitetura muito complexa. Portanto, não há necessidade de um processo especializado nesse aspecto. O trade-off entre flexibilidade e risco entre ScrumXP e OpenUP inclina-se mais para o ScrumXP, priorizando a flexibilidade.
+2. Arquitetura e Planejamento Técnico: O OpenUP permite um planejamento arquitetural mais detalhado, reduzindo riscos e assegurando uma entrega robusta, sem perder a flexibilidade do Scrum XP nas fases iniciais.
 
-3. Adaptação ao Nível de Conhecimento da Equipe: A equipe não está totalmente confortável com as tecnologias que serão utilizadas no projeto. O ScrumXP oferece uma margem maior para a adaptação da equipe às novas tecnologias, permitindo um aprendizado contínuo.
+3. Adaptação ao Nível de Conhecimento da Equipe: O Scrum XP oferece uma margem maior para adaptação às novas tecnologias, enquanto o OpenUP proporciona um foco técnico adequado, equilibrando flexibilidade e aprendizado contínuo.
 
-4. Familiaridade com o Processo: Toda a equipe já realizou projetos utilizando o ScrumXP, portanto, já está familiarizada com o processo e seus ritos. Não há necessidade de adaptação a um novo processo.
+4. Familiaridade com o Processo: A equipe já tem experiência com o Scrum XP, e a introdução de práticas do OpenUP não exige mudanças drásticas, mas agrega valor ao planejamento e gerenciamento do projeto.
 
 
 
