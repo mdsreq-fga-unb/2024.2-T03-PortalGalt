@@ -225,3 +225,160 @@ Este caso de uso “Gerenciar Histórico Médico” descreve o processo pelo qua
 ## 9. Ponto de Extensão
 
 - 9.1 "Visualizar Histórico Médico Completo": Permitir o acesso total ao histórico médico de um paciente.
+9.2 "Consultar Histórico Médico": Facilita a busca por registros específicos.
+
+## 1. Breve Descrição 
+
+A funcionalidade "Cadastrar Serviços" permite que o profissional da saúde registre novos serviços disponíveis no sistema, como consultas, exames ou campanhas de prevenção, tornando-os acessíveis para os usuários.
+
+## 2. Atores 
+
+- *Administrador do Sistema*: Responsável por gerenciar a plataforma e fornecer suporte técnico.       
+- *Organizações parceiras*: Instituições ou entidades que colaboram para oferecer serviços ou recursos adicionais.  
+- *Profissional da Saúde*: Instituições ou entidades que colaboram para oferecer serviços ou recursos adicionais.  
+
+## 3. Condições Prévias 
+
+1. O profissional da saúde ou administrador deve estar autenticado no sistema.
+2. O sistema deve possuir categorias de serviços cadastradas previamente.
+3. Deve haver espaço suficiente no banco de dados para armazenar novos serviços.
+
+## 4. Fluxo Básico (FB)
+
+1. O ator acessa a plataforma "ConnectCare" e faz login.
+2. O sistema verifica as credenciais e concede acesso ao painel do profissional.
+3. O ator seleciona a opção "Cadastrar Serviços".
+4. O sistema exibe o formulário de cadastro de serviços.
+5. O ator preenche os campos obrigatórios.
+6. O ator confirma o cadastro clicando no botão "Salvar".
+7. O sistema valida as informações inseridas e salva o serviço no banco de dados.
+8. O sistema exibe uma mensagem de confirmação: *"Serviço cadastrado com sucesso"*.
+
+## 5. Fluxo Alternativo (FA) 
+
+### 5.1 FA1: Cadastro com Categoria Específica  
+- O ator pode filtrar o cadastro por uma categoria específica de serviço (exemplo: consultas, exames, campanhas).  
+- O sistema exibe apenas os campos relacionados à categoria selecionada.  
+- O ator preenche os detalhes correspondentes e confirma o cadastro.  
+
+### 5.2 FA2: Cadastro para Instituições Parceiras  
+- O ator pode cadastrar um serviço em nome de uma organização parceira.  
+- O sistema solicita a identificação da organização.  
+- O restante do fluxo segue normalmente.  
+
+### 5.3 FA3: Falha na Validação dos Dados  
+Caso algum campo obrigatório não seja preenchido ou contenha dados inválidos:  
+- O sistema destaca os campos pendentes ou inválidos.  
+- O sistema exibe uma mensagem de erro: *"Preencha todos os campos obrigatórios corretamente"*.  
+- O ator corrige as informações e retorna ao passo 6 do fluxo principal.  
+
+### 5.4 FA4: Erro de Conexão  
+Se ocorrer um problema de conexão com o banco de dados:  
+- O sistema exibe uma mensagem de erro: *"Não foi possível salvar o serviço. Tente novamente mais tarde"*.  
+- O ator pode optar por tentar novamente ou salvar as informações localmente para envio posterior.  
+
+## 6. Fluxos de Exceção (FE) 
+
+### 6.1 FE1: Tentativa de cadastro duplicado  
+Caso o ator tente cadastrar um serviço já existente, o sistema exibe uma mensagem de erro e solicita a revisão dos dados antes de prosseguir.  
+
+### 6.2 FE2: Falha na autenticação  
+Caso o ator não esteja autenticado corretamente, o sistema impede o acesso à funcionalidade de cadastro e exibe uma mensagem informativa.  
+
+## 7. Regras de Negócio 
+
+1. *RN1: Validação dos dados do serviço*  
+   - O sistema deve garantir que os dados inseridos estejam completos e consistentes antes de permitir o cadastro.  
+
+2. *RN2: Atualização de serviços*  
+   - O profissional da saúde ou administrador pode atualizar as informações de um serviço já cadastrado, desde que autorizado.  
+
+3. *RN3: Limite de serviços cadastrados*  
+   - Cada profissional pode cadastrar um número limitado de serviços simultaneamente, conforme política do sistema.  
+
+## 8. Pós-condições
+
+1. O serviço estará disponível para visualização e agendamento pelos usuários do sistema.  
+2. O profissional da saúde recebe uma confirmação do cadastro.  
+
+## 9. Ponto de extensão
+
+1. *"Gerenciar Serviços"*: Permite alterações e exclusões de serviços já cadastrados.  
+2. *"Consultar Serviços"*: Facilita a busca por serviços cadastrados previamente.  
+
+
+## 1. Breve Descrição  
+
+A funcionalidade “Registrar Visitas Domiciliares” descreve o processo pelo qual agentes comunitários e profissionais da saúde realizam e registram visitas domiciliares para atendimento de pacientes que não possuem acesso facilitado a unidades de saúde. A funcionalidade permite a coleta de dados sobre as condições de saúde da população e auxilia na identificação de áreas prioritárias para campanhas preventivas.
+
+## 2. Atores  
+
+- *Agente Comunitário*: Responsável por realizar visitas domiciliares e registrar informações sobre a condição de saúde dos pacientes.  
+- *Profissional da Saúde*: Instituições ou entidades que colaboram para oferecer serviços ou recursos adicionais.    
+
+## 3. Condições Prévias  
+
+1. O agente comunitário ou profissional da saúde deve estar autenticado no sistema.  
+2. O paciente deve estar cadastrado na plataforma.  
+3. O sistema deve possuir um banco de dados atualizado de pacientes e suas localizações.  
+4. As permissões de cada ator devem estar corretamente definidas para garantir a segurança dos dados.  
+
+## 4. Fluxo Básico (FB)  
+
+1. O ator acessa a plataforma "ConnectCare" e faz login.  
+2. O sistema verifica as credenciais e concede acesso conforme o nível de permissão.  
+3. O ator acessa a funcionalidade "Registrar Visita Domiciliar".  
+4. O ator pode buscar pacientes utilizando filtros como localização, tipo de atendimento necessário e disponibilidade.  
+5. O sistema exibe uma lista de pacientes elegíveis para visitas domiciliares.  
+6. O ator seleciona um paciente e inicia o registro da visita.  
+7. O sistema exibe um formulário para preenchimento de dados da visita.  
+8. O ator preenche os campos obrigatórios e confirma o registro.  
+9. O sistema valida as informações e salva o registro na base de dados.  
+10. O sistema exibe uma mensagem de confirmação: *"Visita domiciliar registrada com sucesso"*.  
+11. Os dados registrados podem ser utilizados para gerar relatórios e auxiliar na identificação de áreas prioritárias para campanhas preventivas.  
+
+## 5. Fluxo Alternativo (FA)  
+
+### 5.1 FA1: Reagendamento de Visita Domiciliar  
+- Caso o paciente não esteja disponível no momento da tentativa de visita, o ator pode agendar uma nova data e horário.  
+- O sistema notifica o paciente e registra o agendamento.  
+- O ator recebe um lembrete antes do horário agendado.  
+
+### 5.2 FA2: Registro por Terceiros Autorizados  
+- O agente comunitário pode registrar a visita em nome de outro profissional da saúde que tenha realizado o atendimento.  
+- O sistema solicita a identificação do profissional responsável.  
+
+### 5.3 FA3: Falha na Validação dos Dados  
+Caso algum campo obrigatório não seja preenchido ou contenha dados inválidos:  
+- O sistema destaca os campos pendentes ou inválidos.  
+- O sistema exibe uma mensagem de erro: *"Preencha todos os campos obrigatórios corretamente"*.  
+
+## 6. Fluxos de Exceção (FE)  
+
+### 6.1 FE1: Tentativa de Acesso Não Autorizado  
+Caso um ator sem permissão tente acessar ou registrar visitas domiciliares, o sistema exibe uma mensagem de erro e impede a ação.  
+
+### 6.2 FE2: Paciente Não Encontrado  
+Caso o paciente não possua cadastro na plataforma, o sistema exibe uma mensagem: *"Paciente não encontrado"* e solicita o cadastro antes da realização da visita.
+
+## 7. Regras de Negócio  
+
+1. *RN1: Validação dos dados da visita*  
+   - O sistema deve garantir que os dados inseridos estejam completos e consistentes antes de permitir o registro da visita.  
+
+2. *RN2: Confidencialidade dos dados*  
+   - Apenas profissionais autorizados podem acessar os registros de visitas domiciliares.  
+
+3. *RN3: Relatórios de visitas*  
+   - O sistema deve permitir a geração de relatórios para análise de tendências e identificação de áreas prioritárias.  
+
+## 8. Pós-condições  
+
+1. O registro da visita domiciliar estará disponível para consulta e análise posterior.  
+2. O profissional responsável receberá uma confirmação do registro.  
+3. Os dados poderão ser utilizados para planejamento de campanhas preventivas e políticas de saúde pública.  
+
+## 9. Ponto de extensão  
+
+1. *"Consultar Visitas Domiciliares"*: Permite a busca e visualização de registros de visitas anteriores.  
+2. *"Gerar Relatórios de Visitas"*: Facilita a análise de dados e a tomada de decisões estratégicas.
