@@ -21,7 +21,7 @@ Atividade realizada no draw.io, acesse [por aqui.]([==?share_link_id=76883198574
 
 # Especificação Caso de Uso 
 
-# 1. Breve Descrição 
+## 1. Breve Descrição 
 
 A funcionalidade "Realizar Agendamento" no modelo de Diagrama de Casos de Uso para o ConnectCare deve envolver os principais atores e interações do sistema relacionadas ao processo de agendamento de consultas ou exames.
 
