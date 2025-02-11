@@ -29,6 +29,10 @@
 > Fonte: slide de sala de aula "Unidade 1 - Aula - Aborgadens, Ciclos de Vida e Processo.pdf"
 > Exemplo ecofashion "TEMPLATE - REQ - 2024.2 - Visao do Produto e Projeto.pdf"
 
+## Benefícios do Modelo Híbrido
+
+A adoção deste modelo híbrido proporciona uma combinação dos pontos fortes das duas abordagens, permitindo que aproveitemos os melhores aspectos do Scrum XP e do OpenUP.
+
 | Benefício | Descrição |
 | --------- | --------- |
 | **Entrega contínua de valor** | O Scrum XP garante que o time tenha um ritmo de trabalho constante e que entreguemos funcionalidades em um fluxo contínuo, com feedback rápido e constante. Mesmo com a entrega final sendo substancial, ainda mantemos uma abordagem ágil e reativa durante o desenvolvimento. |
