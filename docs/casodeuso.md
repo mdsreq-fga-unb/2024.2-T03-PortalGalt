@@ -1,7 +1,15 @@
 # Estudo de Caso "ConnectCare"
 
 ## Contexto:
-XX
+Em uma comunidade remota chamada Vila Esperança, onde o acesso a serviços de saúde é
+limitado, um grupo de desenvolvedores e a)vistas sociais se reuniu para criar o "ConnectCare".
+A plataforma foi projetada para superar barreiras, como a falta de transporte e informações,
+facilitando o acesso dos moradores a cuidados médicos.
+O ambiente da Vila Esperança é desafiador: infraestrutura básica limitada, baixa penetração de
+internet e um número reduzido de profissionais de saúde. Apesar disso, a comunidade tem uma
+forte rede social e um espírito colabora)vo, que serviram como base para o desenvolvimento do
+"ConnectCare". 
+
 
 > Baseado em "Exercício de Construção de Caso de Uso" passado em sala de aula pelo Prof. Dr. George Marsicano
 
