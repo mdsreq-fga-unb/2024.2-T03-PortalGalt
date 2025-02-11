@@ -22,7 +22,7 @@ Gravação expirou.
 
 [Confira aqui](https://youtu.be/JHDSVsjtVJs)
 
-[![alt text](images/thumb4.png)](https://youtu.be/x82j3L76k-E)
+[![alt text](images/thumb4.png)](https://youtu.be/JHDSVsjtVJs)
 
 ## Apresentação Unidade 4
 
