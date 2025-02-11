@@ -17,27 +17,27 @@ Atividade realizada no MIRO, acesse [por aqui.](https://miro.com/welcomeonboard/
 
 ![alt text](images/usm/problemas.png)
 
-## benefícios:
+## Benefícios:
 
 ![alt text](images/usm/beneficios.png)
 
-## mapa completo:
-![alt text](images/usm/mapa_completo.png)
+## Mapa completo:
+![alt text](images/usm/toutUSM.png)
 
 ## Caminhos:
 
 ### Professor Coordenador
-![alt text](images/usm/professor_coordenador.png)
+![alt text](images/usm/profcoordenadorUSM.png)
 ### Professor Participante
-![alt text](images/usm/professor_participante.png)
+![alt text](images/usm/propartUSM.png)
 ### alunos
-![alt text](images/usm/alunos.png)
+![alt text](images/usm/alunoUSM.png)
 ### Pais/Responsáveis
-![alt text](images/usm/pais.png)
+![alt text](images/usm/paisrespUSM.png)
 ### coordenador Pedagógico
-![alt text](images/usm/coordenador.png)
+![alt text](images/usm/coordpedagUSM.png)
 ### Especialista Externo
-![alt text](images/usm/especialista.png)
+![alt text](images/usm/espextUSM.png)
 
 
 
